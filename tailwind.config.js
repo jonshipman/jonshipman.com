@@ -3,7 +3,6 @@ const colors = require('tailwindcss/colors');
 const GREEN = '#d3ffdd';
 const OLIVE = '#a9ccb1';
 
-/** @type {import('tailwindcss').Config} */
 export default {
 	content: ['./src/**/*.{html,js,svelte}'],
 	theme: {

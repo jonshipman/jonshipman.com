@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Back from '$lib/icons/back.svelte';
 </script>
 

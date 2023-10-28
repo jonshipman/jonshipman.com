@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Links from '$lib/content/links.svelte';
 	import Specialities from '$lib/content/specialities.svelte';
 	import Title from '$lib/content/title.svelte';

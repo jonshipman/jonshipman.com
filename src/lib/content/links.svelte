@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Github from '$lib/icons/github.svelte';
 	import LinkedIn from '$lib/icons/linkedin.svelte';
 	import Resume from '$lib/icons/resume.svelte';

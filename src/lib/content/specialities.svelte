@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Pill from '$lib/ui/pill.svelte';
 	import { onMount } from 'svelte';
 
@@ -46,10 +46,7 @@
 		mounted = true;
 	});
 
-	/**
-	 * @param {string[]} array
-	 */
-	function shuffle(array) {
+	function shuffle(array: string[]) {
 		let currentIndex = array.length,
 			randomIndex;
 

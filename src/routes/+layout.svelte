@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import './layout.css';
 
 	const year = new Date().getFullYear();

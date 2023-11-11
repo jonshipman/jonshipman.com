@@ -6,6 +6,9 @@ const OLIVE = '#a9ccb1';
 export default {
 	content: ['./src/**/*.{html,js,svelte}'],
 	theme: {
+		extend: {
+			screens: { print: { raw: 'print' } }
+		},
 		fontFamily: {
 			sans: ['Inter', 'system-ui', 'sans-serif'],
 			pixel: ['"Press Start 2P"', 'cursive']

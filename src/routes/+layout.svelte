@@ -4,13 +4,13 @@
 	const year = new Date().getFullYear();
 </script>
 
-<div class="wrapper p-5 flex h-screen justify-stretch">
-	<div class="flex justify-stretch grow bg-green rounded-xl text-purple overflow-x-auto shadow-md">
-		<div class="flex flex-col flex-1 grow px-10 pt-10">
+<div class="wrapper p-5 print:p-0 flex h-screen print:h-auto justify-stretch print:text-xs">
+	<div class="flex justify-stretch grow bg-green print:bg-white rounded-xl text-purple print:text-black overflow-x-auto print:overflow-visible shadow-md print:shadow-none">
+		<div class="flex flex-col flex-1 grow px-10 pt-10 print:p-0">
 			<div class="flex-1 grow">
 				<slot />
 			</div>
-			<div class="text-right mt-5 pb-10">&copy; {year}</div>
+			<div class="print:hidden text-right mt-5 pb-10">&copy; {year}</div>
 		</div>
 	</div>
 </div>

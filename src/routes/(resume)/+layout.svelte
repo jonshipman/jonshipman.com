@@ -2,7 +2,7 @@
 	import Back from '$lib/icons/back.svelte';
 </script>
 
-<div>
+<div class="print:hidden">
 	<a href="/" class="flex items-center">
 		<Back width="20" height="20" class="inline-block mr-2" /> Back
 	</a>

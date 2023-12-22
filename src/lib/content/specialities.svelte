@@ -37,7 +37,9 @@
 		'Responsive Layouts',
 		'Google BigQuery',
 		'AWS',
-		'Google Workspace'
+		'Google Workspace',
+		'pocketbase',
+		'sqlite'
 	]);
 
 	export { className as class };

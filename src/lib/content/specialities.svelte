@@ -29,7 +29,7 @@
 		'Svelte',
 		'Symfony',
 		'tachyons.io',
-		'Tailwindcss',
+		'TailwindCSS',
 		'vite',
 		'Vue.js',
 		'webpack',

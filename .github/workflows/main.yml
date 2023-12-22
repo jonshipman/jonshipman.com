@@ -1,0 +1,29 @@
+name: deploy ⬆️
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+
+  build:
+    name: Build ⚒️
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@v1.0.0
+      with:
+        host: jonshipman.com
+        username: jon
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        script: |
+          cd ~/Docker/jonshipman.com
+          docker compose down
+          cd repo
+          git stash -u
+          git pull
+          npm ci
+          npm run build
+          cd ..
+          docker compose up -d

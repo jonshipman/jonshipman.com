@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Pill from '$lib/ui/pill.svelte';
 	import { onMount } from 'svelte';
 
 	let className = '';
@@ -67,7 +66,7 @@
 	<div class={className}>
 		<div class="flex gap-4 flex-wrap">
 			{#each options as opt}
-				<Pill>{opt}</Pill>
+				<div>{opt}</div>
 			{/each}
 		</div>
 	</div>

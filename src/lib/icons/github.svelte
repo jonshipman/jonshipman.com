@@ -1,4 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 96" {...$$props}>
+<script lang="ts">
+	export let width = '25';
+	export let height = '25';
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 96" {width} {height}>
 	<path
 		fill-rule="evenodd"
 		clip-rule="evenodd"

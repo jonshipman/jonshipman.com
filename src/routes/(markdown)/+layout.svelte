@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Back from '$lib/icons/back.svelte';
+	import { Back } from '$lib/icons';
 </script>
 
 <div class="print:hidden">

@@ -5,6 +5,7 @@
 	export let autocomplete = '';
 	export let required = false;
 	export let placeholder = '';
+	export let rows = 3;
 
 	let className = '';
 
@@ -33,6 +34,7 @@
 				{autocomplete}
 				{required}
 				{placeholder}
+				{rows}
 				class={elementClass}
 				use:idgen
 			/>

@@ -3,6 +3,7 @@ const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
+			rotate: { 135: '135deg' },
 			screens: { print: { raw: 'print' } },
 			fontFamily: {
 				sans: ['Inter', 'system-ui', 'sans-serif'],
@@ -66,18 +67,18 @@ if (config?.theme?.extend)
 			950: '#2D344C'
 		},
 		blue: {
-			DEFAULT: '#A9CCB7',
-			50: '#F3F7F1',
-			100: '#EBF2E9',
-			200: '#DAE8D9',
-			300: '#C9DFCB',
-			400: '#B9D5C0',
-			500: '#A9CCB7',
-			600: '#86B7A1',
-			700: '#63A28F',
-			800: '#4C8078',
-			900: '#375D5D',
-			950: '#2D4A4C'
+			DEFAULT: '#A9B9CC',
+			50: '#F1F4F7',
+			100: '#E9EDF2',
+			200: '#D9E0E8',
+			300: '#C9D3DF',
+			400: '#B9C6D5',
+			500: '#A9B9CC',
+			600: '#869DB7',
+			700: '#6380A2',
+			800: '#4C6580',
+			900: '#37495D',
+			950: '#2D3B4C'
 		},
 		red: {
 			DEFAULT: '#CCB1A9',

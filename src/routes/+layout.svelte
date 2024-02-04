@@ -8,7 +8,7 @@
 </script>
 
 <div class="flex flex-col min-h-screen w-full">
-	<header class="pt-0 md:pt-6 py-6 select-none">
+	<header class="pt-0 md:pt-6 py-6 select-none print:hidden">
 		<Container>
 			<div class="mb-8 block md:hidden font-bold text-center text-3xl">
 				<a class="text-indigo-900 bg-indigo-50 -mx-8 block py-4" href="tel:19137353463">
@@ -30,7 +30,7 @@
 		<slot />
 	</main>
 
-	<footer class="py-2 text-xs text-center select-none text-slate-600">
+	<footer class="py-2 text-xs text-center select-none text-slate-600 print:hidden">
 		&copy; {year} Jon Shipman /
 		<a href="/resume">Resume</a>
 		/

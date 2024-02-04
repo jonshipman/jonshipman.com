@@ -1,9 +1,7 @@
 <script lang="ts">
-	import { navigating } from '$app/stores';
 	import { Container } from '$lib';
 	import { Links } from '$lib/content';
 	import { Button } from '$lib/form';
-	import { fade } from 'svelte/transition';
 	import './layout.css';
 
 	const year = new Date().getFullYear();

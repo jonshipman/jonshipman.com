@@ -1,40 +1,44 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { navigating } from '$app/stores';
 	import { Container } from '$lib';
 	import { Links } from '$lib/content';
 	import { Button } from '$lib/form';
+	import { fade } from 'svelte/transition';
 	import './layout.css';
 
 	const year = new Date().getFullYear();
-	const linkClass = 'rounded inline-block rounded-lg py-2 px-4 transition-colors';
-
-	$: activePage = $page.url.pathname;
 </script>
 
 <div class="flex flex-col min-h-screen w-full">
-	<header class="py-8 select-none">
+	<header class="pt-0 md:pt-6 py-6 select-none">
 		<Container>
+			<div class="mb-8 block md:hidden font-bold text-center text-3xl">
+				<a class="text-indigo-900 bg-indigo-50 -mx-8 block py-4" href="tel:19137353463">
+					(913) 735-3463
+				</a>
+			</div>
+			<Links class="md:hidden my-8 flex justify-center" />
+
 			<div class="flex items-center gap-4">
 				<div class="font-bold text-3xl"><a href="/">Jon Shipman</a></div>
-				<div class="grow flex justify-center font-semibold">
-					<a href="/projects" class={linkClass} class:active={activePage === '/projects'}>
-						Projects
-					</a>
-				</div>
-				<Links />
+				<div class="grow" />
+				<Links class="hidden md:block" />
 				<Button href="/contact">Contact Me</Button>
 			</div>
 		</Container>
 	</header>
 
 	<main class="grow">
-		<Container>
-			<slot />
-		</Container>
+		<slot />
 	</main>
 
-	<footer class="py-2 text-xs text-center select-none">
-		&copy; {year} Jon Shipman
+	<footer class="py-2 text-xs text-center select-none text-slate-600">
+		&copy; {year} Jon Shipman /
+		<a href="/resume">Resume</a>
+		/
+		<a href="mailto:jon@jonshipman.com">Email</a>
+		/
+		<a href="tel:+19137353463">Call</a>
 	</footer>
 </div>
 
@@ -46,9 +50,3 @@
 		rel="stylesheet"
 	/>
 </svelte:head>
-
-<style lang="postcss">
-	.active {
-		@apply bg-gray-500 bg-opacity-10;
-	}
-</style>

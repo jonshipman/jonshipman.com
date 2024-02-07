@@ -7,13 +7,31 @@
 
 	export let action: string | undefined = undefined;
 
+	let className = '';
+	let btnVisible = false;
+
 	$: error = $page.form?.error || '';
 	$: success = $page.form?.success || '';
 
-	let className = '';
-
 	function handleCloseError() {
 		error = '';
+	}
+
+	function triggerBtnFx(node: HTMLDivElement) {
+		const observer = new IntersectionObserver(
+			function (entries) {
+				entries.forEach((entry) => {
+					btnVisible = entry.isIntersecting;
+				});
+			},
+			{
+				root: null,
+				rootMargin: '0px',
+				threshold: 0.75
+			}
+		);
+
+		observer.observe(node);
 	}
 
 	export { className as class };
@@ -81,8 +99,12 @@
 			/>
 		</div>
 
-		<div class="flex justify-end">
-			<Button>Send me a 📨</Button>
+		<div class="flex justify-end" use:triggerBtnFx>
+			{#if btnVisible}
+				<div transition:fade={{ delay: 1000 }}>
+					<Button>Send me a 📨</Button>
+				</div>
+			{/if}
 		</div>
 	</slot>
 </form>

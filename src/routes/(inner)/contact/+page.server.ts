@@ -24,7 +24,7 @@ export const actions = {
 		const transporter = nodemailer.createTransport({
 			host: 'smtp.mailgun.org',
 			port: 587,
-			secure: url.protocol === 'https:',
+			secure: false,
 			auth: {
 				user: EMAIL_USER,
 				pass: EMAIL_PASS

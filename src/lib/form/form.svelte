@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { enhance } from '$app/forms';
+	import { applyAction, enhance } from '$app/forms';
 	import { page } from '$app/stores';
+	import type { SubmitFunction } from '@sveltejs/kit';
 	import { fade } from 'svelte/transition';
 	import Button from './button.svelte';
 	import Field from './field.svelte';
@@ -34,10 +35,16 @@
 		observer.observe(node);
 	}
 
+	const handleSubmit: SubmitFunction = function () {
+		return ({ update, result }) => {
+			return update().then(() => applyAction(result));
+		};
+	};
+
 	export { className as class };
 </script>
 
-<form {action} method="POST" class={className} use:enhance>
+<form {action} method="POST" class={className} use:enhance={handleSubmit}>
 	{#if error || success}
 		<div transition:fade class="flex items-center justify-center relative text-center">
 			<div class="z-10 absolute bottom-16 max-w-5xl mx-auto w-full">

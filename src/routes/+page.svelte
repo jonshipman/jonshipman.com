@@ -1,13 +1,9 @@
 <script lang="ts">
 	import { Container } from '$lib';
-	import { Specialities } from '$lib/content';
-	import ProjectCard from '$lib/content/project-card.svelte';
+	import { Projects, Specialities } from '$lib/content';
 	import { Button } from '$lib/form';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
-	import sveltekit from './sveltekit.webp';
-	import remix from './remix.webp';
-	import tipcalc from './tipcalc.webp';
 
 	const experience = new Date().getFullYear() - 2007;
 
@@ -75,46 +71,7 @@
 			<Button class="ml-auto" href="/projects">Projects</Button>
 		</header>
 
-		<div class="grid grid-cols-1 gap-8">
-			<ProjectCard
-				title="SvelteKit + Pocketbase"
-				category="boilerplate"
-				href="https://github.com/jonshipman/sveltekit-pb-boilerplate"
-			>
-				<p>
-					A reusable template for a SvelteKit + Pocketbase website. Includes SSR and CSR
-					authentication and security. Provides screens for login, registration, and forgot
-					password. Easy to use cross-platform setup script.
-				</p>
-
-				<img src={sveltekit} slot="image" alt="SvelteKit + Pocketbase" />
-			</ProjectCard>
-
-			<ProjectCard
-				title="Tip Calculation Calculator"
-				category="code"
-				color="purple"
-				href="https://github.com/jonshipman/tip-calculator"
-			>
-				<p>POC Android application written with Sveltekit, TailwindCSS, and Capacitor.</p>
-
-				<img src={tipcalc} slot="image" alt="Tip Calculation Calculator" />
-			</ProjectCard>
-
-			<ProjectCard
-				title="Remix + Pocketbase"
-				category="demo"
-				color="blue"
-				href="https://github.com/jonshipman/remix-run-examples/commit/73dba077bb3dfbabf70b41ee7908972eee99f22e"
-			>
-				<p>
-					React based implementation of Pocketbase's authentication stack. Includes login, logout,
-					and realtime data demoed. SSR + CSR compatible using HTTP cookie sharing.
-				</p>
-
-				<img src={remix} slot="image" alt="Remix + Pocketbase" />
-			</ProjectCard>
-		</div>
+		<Projects />
 	</Container>
 </div>
 

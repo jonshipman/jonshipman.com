@@ -5,9 +5,11 @@
 	import { fade } from 'svelte/transition';
 	import Button from './button.svelte';
 	import Field from './field.svelte';
+	import { onMount } from 'svelte';
 
 	export let action: string | undefined = undefined;
 
+	let honeypot = 'text';
 	let className = '';
 	let btnVisible = false;
 
@@ -40,6 +42,10 @@
 			return update().then(() => applyAction(result));
 		};
 	};
+
+	onMount(() => {
+		honeypot = 'hidden';
+	});
 
 	export { className as class };
 </script>
@@ -84,6 +90,8 @@
 			</div>
 		</div>
 	{/if}
+
+	<input {...{ type: honeypot }} name="phone" />
 
 	<slot>
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">

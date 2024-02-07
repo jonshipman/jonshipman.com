@@ -18,3 +18,8 @@
 	</div>
 	<Form />
 </div>
+
+<svelte:head>
+	<title>Contact | JonShipman.com</title>
+	<meta name="description" content="I can write forms too." />
+</svelte:head>

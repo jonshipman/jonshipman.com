@@ -5,7 +5,7 @@ import nodemailer from 'nodemailer';
 const limit = new Map<string, string>();
 
 export const actions = {
-	async default({ url, request, getClientAddress }) {
+	async default({ request, getClientAddress }) {
 		const ip = getClientAddress();
 		if (limit.has(ip))
 			return fail(400, { error: 'You have already sent me something! I loved it!' });

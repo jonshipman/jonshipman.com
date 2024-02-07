@@ -6,7 +6,10 @@ const limit = new Map<string, string>();
 
 export const actions = {
 	async default({ request, getClientAddress }) {
-		const ip = getClientAddress();
+		let ip = getClientAddress();
+		const forwardedFor = request.headers.get('x-forwarded-for');
+		if (forwardedFor) ip = forwardedFor;
+
 		if (limit.has(ip))
 			return fail(400, { error: 'You have already sent me something! I loved it!' });
 

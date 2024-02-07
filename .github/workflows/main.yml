@@ -26,6 +26,6 @@ jobs:
           export NVM_DIR=~/.nvm
           source ~/.nvm/nvm.sh
           npm ci
-          npm run build
+          ADDRESS_HEADER=True-Client-IP npm run build
           cd ..
           docker compose up -d

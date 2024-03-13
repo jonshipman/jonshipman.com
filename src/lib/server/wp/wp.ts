@@ -82,6 +82,35 @@ class Wp {
 		return result;
 	}
 
+	async category(slug: string) {
+		const self = this.constructor as typeof Wp;
+		const key = `__category__` + slug;
+		const cache = this.getcache(key);
+		if (cache) return cache;
+
+		const url = new URL(self.baseUrl + '/wp/v2/categories');
+		url.searchParams.set('slug', slug);
+		url.searchParams.set('_embed', '1');
+
+		const response = await this.fetch(url.toString(), {
+			headers: new Headers({
+				authorization: `Basic ${this.token()}`,
+				'content-type': 'application/json'
+			})
+		});
+
+		if (response.ok) {
+			const result = await this.process(response);
+
+			if (result.length) {
+				this.cache(key, result[0]);
+				return result[0];
+			}
+		}
+
+		return null;
+	}
+
 	async posts<T extends WpPost>(options: PostFilteredOptions): Promise<WpPosts<T>> {
 		const self = this.constructor as typeof Wp;
 		const { page, limit } = options;

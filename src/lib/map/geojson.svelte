@@ -15,22 +15,24 @@
 		| { type: string; coordinates: number[][][] }
 		| { type: string; coordinates: number[][][][] };
 
+	const blue = tailwind.theme.colors.blue as any;
+	const orange = tailwind.theme.colors.orange as any;
+
 	export let geojson: GeoJSON;
 	export let zIndex = 10;
+	export let strokeColor = blue[500];
+	export let fillColor = orange[500];
 
 	const map = getContext<Map>('map');
 	const projection = map.getView().getProjection();
 
-	const blue = tailwind.theme.colors.blue as any;
-	const orange = tailwind.theme.colors.orange as any;
-
 	const style = new Style({
 		stroke: new Stroke({
-			color: blue.DEFAULT,
+			color: strokeColor,
 			width: 1.5
 		}),
 		fill: new Fill({
-			color: orange.DEFAULT
+			color: fillColor
 		})
 	});
 

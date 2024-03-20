@@ -1,7 +1,7 @@
 import type { Action } from 'svelte/action';
 
 function isListenerEvent<T = never>(event: Event): event is CustomEvent<T> {
-	return 'detail' in event && typeof event.detail === 'object' && !!event.detail;
+	return 'detail' in event;
 }
 
 type Options = {

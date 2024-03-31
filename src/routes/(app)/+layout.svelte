@@ -2,6 +2,7 @@
 	import { Container } from '$lib';
 	import { Links } from '$lib/content';
 	import { Button } from '$lib/form';
+	import './layout.css';
 
 	const year = new Date().getFullYear();
 </script>

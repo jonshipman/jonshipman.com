@@ -1,0 +1,1 @@
+export { tailwind } from './theme';

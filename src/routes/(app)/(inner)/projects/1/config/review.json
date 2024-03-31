@@ -1,0 +1,36 @@
+{
+	"authorName": "",
+	"authorUrl": "",
+	"language": "en",
+	"profilePhotoUrl": "/wp-content/uploads/reviews/1.png",
+	"rating": 5,
+	"relativeTimeDescription": "1 day ago",
+	"text": "",
+	"time": 1710549710,
+	"location": {
+		"name": "locations/9112442133489014841",
+		"title": "Vandelay Industries",
+		"phoneNumbers": {
+			"primaryPhone": "(555) 123-4567"
+		},
+		"storefrontAddress": {
+			"regionCode": "US",
+			"languageCode": "en",
+			"postalCode": "90210",
+			"administrativeArea": "CA",
+			"locality": "Anytown",
+			"addressLines": ["123 Main St.", "Apt. 201"]
+		},
+		"websiteUri": "https://vandelayindustries.com/",
+		"metadata": {
+			"canDelete": true,
+			"canModifyServiceList": true,
+			"placeId": "ChIJtbJ_asQVkFQRkx6cDbZge70",
+			"mapsUri": "https://maps.google.com/maps?cid=9112442133489014841",
+			"newReviewUri": "https://search.google.com/local/writereview?placeid=ChIJtbJ_asQVkFQRkx6cDbZge70"
+		},
+		"profile": {
+			"description": ""
+		}
+	}
+}

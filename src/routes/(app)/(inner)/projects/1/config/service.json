@@ -1,0 +1,666 @@
+{
+	"id": 528,
+	"date": "2018-02-20T20:16:41",
+	"date_gmt": "2018-02-21T02:16:41",
+	"guid": {
+		"rendered": "http://dev.shamrockroofer.com/?page_id=528"
+	},
+	"modified": "2023-12-13T12:15:19",
+	"modified_gmt": "2023-12-13T18:15:19",
+	"slug": "apartments",
+	"status": "publish",
+	"type": "service",
+	"link": "/service/apartments/",
+	"title": {
+		"rendered": "Apartment roofing"
+	},
+	"content": {
+		"rendered": "\n<div class=\"wp-block-shamrock-roofer-hero\" data-opacity=\"0\" data-background-1-id=\"176162\" data-background-1-src=\"/wp-content/uploads/2021/02/1920.apartments.mp4\" data-background-1-text=\"Customer's #1 Choice\" data-background-1-text2=\"Shamrock Roofing and Construction\" data-background-1-text3=\"One Call Does It All\" data-background-1-button_text=\"Read More\" data-background-1-link=\"\" data-background-1-use_phone=\"true\" data-background-1-mime=\"video/mp4\" data-background-1-opacity=\"\" data-background-1-no_form=\"\" data-background-1-slidelink=\"\" data-background-1-overlay=\"\"></div>\n\n\n\n<p>Shamrock Roofing &amp; Construction does so much more than just put your multi-family building back into top shape. We offer full restoration and general contracting services for all multi-family dwellings. Whether it’s an apartment condo, townhouse, or a duplex, our team works with precision and speed to restore, repair, or replace based on what’s needed. We keep you informed the whole way through, helping with insurance reimbursement questions and providing the customer support you deserve.</p>\n\n\n\n<p><strong>Why choose Shamrock over another apartment roofing company?</strong></p>\n\n\n\n<p>&#8211; We stand by our motto, “Service before Self”. We do not compromise on quality over cost and we get the job done right the first time.</p>\n\n\n\n<p>&#8211; As a master commercial roofing company, we can offer premium warranties that many other roofing companies are not able to provide.</p>\n\n\n\n<p>&#8211; Shamrock Roofing &amp; Construction utilizes the latest technology platforms such as Xactimate to provide quick, accurate and detailed estimates, and Eagle View to provide aerial photography and assessments.</p>\n\n\n\n<p>&#8211; Our management team has over 40 years of experience in the roofing and insurance industries.</p>\n\n\n\n<p>&#8211; The Shamrock team of highly trained professionals are experts in restoration and all types of roofing installations and repairs. &nbsp; </p>\n\n\n\n<p>&#8211; Our reputation for quality workmanship, attention to detail backed by exceptional customer service speaks for itself—we are proud to consistently receive four and five-star reviews from our happy customers!</p>\n\n\n\n<h4 class=\"wp-block-heading\" id=\"h-locations-we-serve\"><em>Locations We Serve</em></h4>\n\n\n\n<div class=\"location-c-color\"><div class=\"wp-shamrock-locations-list\"></div></div>\n\n\n\n<p></p>\n",
+		"protected": false
+	},
+	"excerpt": {
+		"rendered": "<p>Shamrock Roofing &amp; Construction does so much more than just put your multi-family building back into top shape. We offer full restoration and general contracting services for all multi-family dwellings. Whether it’s an apartment condo, townhouse, or a duplex, our team works with precision and speed to restore, repair, or replace based on what’s needed. [&hellip;]</p>\n",
+		"protected": false
+	},
+	"featured_media": 446,
+	"template": "",
+	"meta": {
+		"heading": "",
+		"sub-heading": "",
+		"cta_link": "",
+		"cta": "",
+		"hero_video": 0,
+		"hero_video_webm": 0,
+		"excerpt_title": ""
+	},
+	"service_type": [1241],
+	"post_class": "post-528 service type-service status-publish has-post-thumbnail hentry service_type-commercial",
+	"hero_video_src": null,
+	"hero_video_webm_src": null,
+	"formatted_date": "February 20, 2018",
+	"yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.5 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Multi-Family | Shamrock Roofing &amp; Construction</title>\n<meta name=\"description\" content=\"Shamrock Roofing &amp; Construction does so much more than just putting your multi-family building back into top shape. We offer full restoration and general contracting services for all multi-family dwellings. Whether it’s an apartment condo, townhouse or a duplex, our team works with precision and speed to restore, repair or replace based on what’s needed. We keep you informed the whole way through, helping with insurance reimbursement questions and making the property better than it was in the first place. Whether the situation demands expertise in multi-family roofing, townhouse roof repair, apartment roof repair, or anything else, Shamrock Roofing &amp; Construction has the team to tackle the job. Why choose an “apartment roofing company” when Shamrock does it all?\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"/service/apartments/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Multi-Family | Shamrock Roofing &amp; Construction\" />\n<meta property=\"og:description\" content=\"Shamrock Roofing &amp; Construction does so much more than just putting your multi-family building back into top shape. We offer full restoration and general contracting services for all multi-family dwellings. Whether it’s an apartment condo, townhouse or a duplex, our team works with precision and speed to restore, repair or replace based on what’s needed. We keep you informed the whole way through, helping with insurance reimbursement questions and making the property better than it was in the first place. Whether the situation demands expertise in multi-family roofing, townhouse roof repair, apartment roof repair, or anything else, Shamrock Roofing &amp; Construction has the team to tackle the job. Why choose an “apartment roofing company” when Shamrock does it all?\" />\n<meta property=\"og:url\" content=\"/service/apartments/\" />\n<meta property=\"og:site_name\" content=\"Shamrock Roofing and Construction\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/shamrockroofingkc/\" />\n<meta property=\"article:modified_time\" content=\"2023-12-13T18:15:19+00:00\" />\n<meta property=\"og:image\" content=\"/wp-content/uploads/2018/02/apartment-complex-roofs-1024x680.jpg\" />\n\t<meta property=\"og:image:width\" content=\"1024\" />\n\t<meta property=\"og:image:height\" content=\"680\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@ShamrockRoofer\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\" />\n\t<meta name=\"twitter:data1\" content=\"1 minute\" />\n<!-- / Yoast SEO plugin. -->",
+	"yoast_head_json": {
+		"title": "Multi-Family | Shamrock Roofing & Construction",
+		"description": "Shamrock Roofing & Construction does so much more than just putting your multi-family building back into top shape. We offer full restoration and general contracting services for all multi-family dwellings. Whether it’s an apartment condo, townhouse or a duplex, our team works with precision and speed to restore, repair or replace based on what’s needed. We keep you informed the whole way through, helping with insurance reimbursement questions and making the property better than it was in the first place. Whether the situation demands expertise in multi-family roofing, townhouse roof repair, apartment roof repair, or anything else, Shamrock Roofing & Construction has the team to tackle the job. Why choose an “apartment roofing company” when Shamrock does it all?",
+		"robots": {
+			"index": "index",
+			"follow": "follow",
+			"max-snippet": "max-snippet:-1",
+			"max-image-preview": "max-image-preview:large",
+			"max-video-preview": "max-video-preview:-1"
+		},
+		"canonical": "/service/apartments/",
+		"og_locale": "en_US",
+		"og_type": "article",
+		"og_title": "Multi-Family | Shamrock Roofing & Construction",
+		"og_description": "Shamrock Roofing & Construction does so much more than just putting your multi-family building back into top shape. We offer full restoration and general contracting services for all multi-family dwellings. Whether it’s an apartment condo, townhouse or a duplex, our team works with precision and speed to restore, repair or replace based on what’s needed. We keep you informed the whole way through, helping with insurance reimbursement questions and making the property better than it was in the first place. Whether the situation demands expertise in multi-family roofing, townhouse roof repair, apartment roof repair, or anything else, Shamrock Roofing & Construction has the team to tackle the job. Why choose an “apartment roofing company” when Shamrock does it all?",
+		"og_url": "/service/apartments/",
+		"og_site_name": "Shamrock Roofing and Construction",
+		"article_publisher": "https://www.facebook.com/shamrockroofingkc/",
+		"article_modified_time": "2023-12-13T18:15:19+00:00",
+		"og_image": [
+			{
+				"width": 1024,
+				"height": 680,
+				"url": "/wp-content/uploads/2018/02/apartment-complex-roofs-1024x680.jpg",
+				"type": "image/jpeg"
+			}
+		],
+		"twitter_card": "summary_large_image",
+		"twitter_site": "@ShamrockRoofer",
+		"twitter_misc": {
+			"Est. reading time": "1 minute"
+		},
+		"schema": {
+			"@context": "https://schema.org",
+			"@graph": [
+				{
+					"@type": "WebPage",
+					"@id": "/service/apartments/",
+					"url": "/service/apartments/",
+					"name": "Multi-Family | Shamrock Roofing & Construction",
+					"isPartOf": {
+						"@id": "/#website"
+					},
+					"datePublished": "2018-02-21T02:16:41+00:00",
+					"dateModified": "2023-12-13T18:15:19+00:00",
+					"description": "Shamrock Roofing & Construction does so much more than just putting your multi-family building back into top shape. We offer full restoration and general contracting services for all multi-family dwellings. Whether it’s an apartment condo, townhouse or a duplex, our team works with precision and speed to restore, repair or replace based on what’s needed. We keep you informed the whole way through, helping with insurance reimbursement questions and making the property better than it was in the first place. Whether the situation demands expertise in multi-family roofing, townhouse roof repair, apartment roof repair, or anything else, Shamrock Roofing & Construction has the team to tackle the job. Why choose an “apartment roofing company” when Shamrock does it all?",
+					"breadcrumb": {
+						"@id": "/service/apartments/#breadcrumb"
+					},
+					"inLanguage": "en-US",
+					"potentialAction": [
+						{
+							"@type": "ReadAction",
+							"target": ["/service/apartments/"]
+						}
+					]
+				},
+				{
+					"@type": "BreadcrumbList",
+					"@id": "/service/apartments/#breadcrumb",
+					"itemListElement": [
+						{
+							"@type": "ListItem",
+							"position": 1,
+							"name": "Home",
+							"item": "/"
+						},
+						{
+							"@type": "ListItem",
+							"position": 2,
+							"name": "Apartment roofing"
+						}
+					]
+				},
+				{
+					"@type": "WebSite",
+					"@id": "/#website",
+					"url": "/",
+					"name": "Shamrock Roofing and Construction",
+					"description": "One Call Does It All!",
+					"publisher": {
+						"@id": "/#organization"
+					},
+					"inLanguage": "en-US"
+				},
+				{
+					"@type": "Organization",
+					"@id": "/#organization",
+					"name": "Shamrock Roofing And Construction",
+					"url": "/",
+					"logo": {
+						"@type": "ImageObject",
+						"inLanguage": "en-US",
+						"@id": "/#/schema/logo/image/",
+						"url": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+						"contentUrl": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+						"width": 300,
+						"height": 200,
+						"caption": "Shamrock Roofing And Construction"
+					},
+					"image": {
+						"@id": "/#/schema/logo/image/"
+					},
+					"sameAs": [
+						"https://www.facebook.com/shamrockroofingkc/",
+						"https://twitter.com/ShamrockRoofer",
+						"https://www.instagram.com/shamrock_roofer/",
+						"https://www.linkedin.com/company/shamrock-roofing-construction/",
+						"https://www.youtube.com/channel/UC-WVccA6zbDesfIlnJcBm0g"
+					]
+				}
+			]
+		}
+	},
+	"_links": {
+		"self": [
+			{
+				"href": "/wp-json/wp/v2/service/528"
+			}
+		],
+		"collection": [
+			{
+				"href": "/wp-json/wp/v2/service"
+			}
+		],
+		"about": [
+			{
+				"href": "/wp-json/wp/v2/types/service"
+			}
+		],
+		"version-history": [
+			{
+				"count": 0,
+				"href": "/wp-json/wp/v2/service/528/revisions"
+			}
+		],
+		"wp:featuredmedia": [
+			{
+				"embeddable": true,
+				"href": "/wp-json/wp/v2/media/446"
+			}
+		],
+		"wp:attachment": [
+			{
+				"href": "/wp-json/wp/v2/media?parent=528"
+			}
+		],
+		"wp:term": [
+			{
+				"taxonomy": "service_type",
+				"embeddable": true,
+				"href": "/wp-json/wp/v2/service_type?post=528"
+			}
+		],
+		"curies": [
+			{
+				"name": "wp",
+				"href": "https://api.w.org/{rel}",
+				"templated": true
+			}
+		]
+	},
+	"_embedded": {
+		"wp:featuredmedia": [
+			{
+				"id": 446,
+				"date": "2018-02-19T18:18:54",
+				"slug": "modern-townhouses",
+				"type": "attachment",
+				"link": "/modern-townhouses/",
+				"title": {
+					"rendered": "Apartment Complex Roofing"
+				},
+				"author": 4,
+				"post_class": "post-446 attachment type-attachment status-inherit hentry",
+				"formatted_date": "February 19, 2018",
+				"yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.5 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Apartment Complex Roofing - Shamrock Roofing and Construction</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Apartment Complex Roofing - Shamrock Roofing and Construction\" />\n<meta property=\"og:description\" content=\"2300+ homes and businesses have trusted Shamrock since 1977.   Don&#039;t rely on luck with your roof.  Services  Contact Now!\" />\n<meta property=\"og:url\" content=\"/wp-content/uploads/2018/02/apartment-complex-roofs.jpg\" />\n<meta property=\"og:site_name\" content=\"Shamrock Roofing and Construction\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/shamrockroofingkc/\" />\n<meta property=\"article:modified_time\" content=\"2019-09-25T13:55:19+00:00\" />\n<meta property=\"og:image\" content=\"/wp-content/uploads/2018/02/apartment-complex-roofs-1024x680.jpg\" />\n\t<meta property=\"og:image:width\" content=\"1024\" />\n\t<meta property=\"og:image:height\" content=\"680\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@ShamrockRoofer\" />\n<!-- / Yoast SEO plugin. -->",
+				"yoast_head_json": {
+					"title": "Apartment Complex Roofing - Shamrock Roofing and Construction",
+					"robots": {
+						"index": "noindex",
+						"follow": "follow"
+					},
+					"og_locale": "en_US",
+					"og_type": "article",
+					"og_title": "Apartment Complex Roofing - Shamrock Roofing and Construction",
+					"og_description": "2300+ homes and businesses have trusted Shamrock since 1977.   Don't rely on luck with your roof.  Services  Contact Now!",
+					"og_url": "/wp-content/uploads/2018/02/apartment-complex-roofs.jpg",
+					"og_site_name": "Shamrock Roofing and Construction",
+					"article_publisher": "https://www.facebook.com/shamrockroofingkc/",
+					"article_modified_time": "2019-09-25T13:55:19+00:00",
+					"og_image": [
+						{
+							"width": 1024,
+							"height": 680,
+							"url": "/wp-content/uploads/2018/02/apartment-complex-roofs-1024x680.jpg",
+							"type": "image/jpeg"
+						}
+					],
+					"twitter_card": "summary_large_image",
+					"twitter_site": "@ShamrockRoofer",
+					"schema": {
+						"@context": "https://schema.org",
+						"@graph": [
+							{
+								"@type": "WebPage",
+								"@id": "/wp-content/uploads/2018/02/apartment-complex-roofs.jpg",
+								"url": "/wp-content/uploads/2018/02/apartment-complex-roofs.jpg",
+								"name": "Apartment Complex Roofing - Shamrock Roofing and Construction",
+								"isPartOf": {
+									"@id": "/#website"
+								},
+								"datePublished": "2018-02-19T18:18:54+00:00",
+								"dateModified": "2019-09-25T13:55:19+00:00",
+								"breadcrumb": {
+									"@id": "/wp-content/uploads/2018/02/apartment-complex-roofs.jpg#breadcrumb"
+								},
+								"inLanguage": "en-US",
+								"potentialAction": [
+									{
+										"@type": "ReadAction",
+										"target": ["/wp-content/uploads/2018/02/apartment-complex-roofs.jpg"]
+									}
+								]
+							},
+							{
+								"@type": "BreadcrumbList",
+								"@id": "/wp-content/uploads/2018/02/apartment-complex-roofs.jpg#breadcrumb",
+								"itemListElement": [
+									{
+										"@type": "ListItem",
+										"position": 1,
+										"name": "Home",
+										"item": "/"
+									},
+									{
+										"@type": "ListItem",
+										"position": 2,
+										"name": "Apartment Complex Roofing"
+									}
+								]
+							},
+							{
+								"@type": "WebSite",
+								"@id": "/#website",
+								"url": "/",
+								"name": "Shamrock Roofing and Construction",
+								"description": "One Call Does It All!",
+								"publisher": {
+									"@id": "/#organization"
+								},
+								"inLanguage": "en-US"
+							},
+							{
+								"@type": "Organization",
+								"@id": "/#organization",
+								"name": "Shamrock Roofing And Construction",
+								"url": "/",
+								"logo": {
+									"@type": "ImageObject",
+									"inLanguage": "en-US",
+									"@id": "/#/schema/logo/image/",
+									"url": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+									"contentUrl": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+									"width": 300,
+									"height": 200,
+									"caption": "Shamrock Roofing And Construction"
+								},
+								"image": {
+									"@id": "/#/schema/logo/image/"
+								},
+								"sameAs": [
+									"https://www.facebook.com/shamrockroofingkc/",
+									"https://twitter.com/ShamrockRoofer",
+									"https://www.instagram.com/shamrock_roofer/",
+									"https://www.linkedin.com/company/shamrock-roofing-construction/",
+									"https://www.youtube.com/channel/UC-WVccA6zbDesfIlnJcBm0g"
+								]
+							}
+						]
+					}
+				},
+				"caption": {
+					"rendered": "<div class=\"caption-wrap\">\n<div class=\"caption\">\n\t\t<span class=\"slider-preheader\"><br />\n\t\t\t<span>2300+</span> homes and businesses <br />have trusted Shamrock since <span>1977</span>.<br />\n\t\t</span></p>\n<div class=\"slider-header\">Don&#8217;t rely on luck with your roof.</div>\n<p>\t\t<a class=\"slider-services\" href=\"/roofers-in-johnson-county/\">Services</a><br />\n\t\t<a class=\"slider-contact\" href=\"/contact\">Contact Now!</a>\n\t</div>\n</div>\n"
+				},
+				"alt_text": "Apartment Complex Roofing",
+				"media_type": "image",
+				"mime_type": "image/jpeg",
+				"media_details": {
+					"width": 2000,
+					"height": 1329,
+					"file": "2018/02/apartment-complex-roofs.jpg",
+					"sizes": {
+						"medium": {
+							"file": "apartment-complex-roofs-300x199.jpg",
+							"width": 300,
+							"height": 199,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs-300x199.jpg"
+						},
+						"large": {
+							"file": "apartment-complex-roofs-1024x680.jpg",
+							"width": 1024,
+							"height": 680,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs-1024x680.jpg"
+						},
+						"thumbnail": {
+							"file": "apartment-complex-roofs-150x150.jpg",
+							"width": 150,
+							"height": 150,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs-150x150.jpg"
+						},
+						"medium_large": {
+							"file": "apartment-complex-roofs-768x510.jpg",
+							"width": 768,
+							"height": 510,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs-768x510.jpg"
+						},
+						"1536x1536": {
+							"file": "apartment-complex-roofs-1536x1021.jpg",
+							"width": 1536,
+							"height": 1021,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs-1536x1021.jpg"
+						},
+						"featured-image": {
+							"file": "apartment-complex-roofs-720x400.jpg",
+							"width": 720,
+							"height": 400,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs-720x400.jpg"
+						},
+						"meta-slider-resized-1400x600": {
+							"file": "apartment-complex-roofs-1400x600.jpg",
+							"width": 1400,
+							"height": 600,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs-1400x600.jpg"
+						},
+						"meta-slider-resized-1200x514": {
+							"file": "apartment-complex-roofs-1200x514.jpg",
+							"width": 1200,
+							"height": 514,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs-1200x514.jpg"
+						},
+						"meta-slider-resized-620x266": {
+							"file": "apartment-complex-roofs-620x266.jpg",
+							"width": 620,
+							"height": 266,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs-620x266.jpg"
+						},
+						"meta-slider-resized-400x171": {
+							"file": "apartment-complex-roofs-400x171.jpg",
+							"width": 400,
+							"height": 171,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs-400x171.jpg"
+						},
+						"wpex_119x119": {
+							"file": "apartment-complex-roofs-119x119.jpg",
+							"width": 119,
+							"height": 119,
+							"wpex_dynamic": true,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs-119x119.jpg"
+						},
+						"wpex_300x300": {
+							"file": "apartment-complex-roofs-300x300.jpg",
+							"width": 300,
+							"height": 300,
+							"wpex_dynamic": true,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs-300x300.jpg"
+						},
+						"full": {
+							"file": "apartment-complex-roofs.jpg",
+							"width": 2000,
+							"height": 1329,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs.jpg"
+						}
+					},
+					"image_meta": {
+						"aperture": "5.6",
+						"credit": "Volodymyr Kyrylyuk",
+						"camera": "NEX-6",
+						"caption": "Real estate. A row of new townhouses.",
+						"created_timestamp": "1360944201",
+						"copyright": "Copyright © 2013 Volodymyr Kyrylyuk.\rAll rights reserved.",
+						"focal_length": "55",
+						"iso": "100",
+						"shutter_speed": "0.002",
+						"title": "Modern Townhouses",
+						"orientation": "1",
+						"keywords": [
+							"apartment",
+							"architecture",
+							"area",
+							"building",
+							"community",
+							"complex",
+							"condo",
+							"condominium",
+							"condos",
+							"construction",
+							"dwelling",
+							"expensive",
+							"exterior",
+							"facade",
+							"flat",
+							"home",
+							"house",
+							"housing",
+							"modern",
+							"mortgage",
+							"neighborhood",
+							"new",
+							"outside",
+							"property",
+							"real estate",
+							"realty",
+							"rent",
+							"rental",
+							"residence",
+							"residential",
+							"retirement",
+							"roof",
+							"row",
+							"siding",
+							"sky",
+							"story",
+							"suburb",
+							"suburban",
+							"suburbia",
+							"suburbs",
+							"town",
+							"townhome",
+							"townhouse",
+							"units",
+							"urban",
+							"window",
+							"funnel",
+							"Canada",
+							"Vancouver"
+						]
+					}
+				},
+				"source_url": "/wp-content/uploads/2018/02/apartment-complex-roofs.jpg",
+				"_links": {
+					"self": [
+						{
+							"href": "/wp-json/wp/v2/media/446"
+						}
+					],
+					"collection": [
+						{
+							"href": "/wp-json/wp/v2/media"
+						}
+					],
+					"about": [
+						{
+							"href": "/wp-json/wp/v2/types/attachment"
+						}
+					],
+					"author": [
+						{
+							"embeddable": true,
+							"href": "/wp-json/wp/v2/users/4"
+						}
+					],
+					"replies": [
+						{
+							"embeddable": true,
+							"href": "/wp-json/wp/v2/comments?post=446"
+						}
+					]
+				}
+			}
+		],
+		"wp:term": [
+			[
+				{
+					"id": 1241,
+					"link": "/service_type/commercial/",
+					"name": "Commercial",
+					"slug": "commercial",
+					"taxonomy": "service_type",
+					"yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.5 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Commercial Archives - Shamrock Roofing and Construction</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"/service_type/commercial/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Commercial Archives - Shamrock Roofing and Construction\" />\n<meta property=\"og:url\" content=\"/service_type/commercial/\" />\n<meta property=\"og:site_name\" content=\"Shamrock Roofing and Construction\" />\n<meta property=\"og:image\" content=\"/wp-content/uploads/2018/01/ShamrockLogo.png\" />\n\t<meta property=\"og:image:width\" content=\"300\" />\n\t<meta property=\"og:image:height\" content=\"200\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@ShamrockRoofer\" />\n<!-- / Yoast SEO plugin. -->",
+					"yoast_head_json": {
+						"title": "Commercial Archives - Shamrock Roofing and Construction",
+						"robots": {
+							"index": "index",
+							"follow": "follow",
+							"max-snippet": "max-snippet:-1",
+							"max-image-preview": "max-image-preview:large",
+							"max-video-preview": "max-video-preview:-1"
+						},
+						"canonical": "/service_type/commercial/",
+						"og_locale": "en_US",
+						"og_type": "article",
+						"og_title": "Commercial Archives - Shamrock Roofing and Construction",
+						"og_url": "/service_type/commercial/",
+						"og_site_name": "Shamrock Roofing and Construction",
+						"og_image": [
+							{
+								"width": 300,
+								"height": 200,
+								"url": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+								"type": "image/png"
+							}
+						],
+						"twitter_card": "summary_large_image",
+						"twitter_site": "@ShamrockRoofer",
+						"schema": {
+							"@context": "https://schema.org",
+							"@graph": [
+								{
+									"@type": "CollectionPage",
+									"@id": "/service_type/commercial/",
+									"url": "/service_type/commercial/",
+									"name": "Commercial Archives - Shamrock Roofing and Construction",
+									"isPartOf": {
+										"@id": "/#website"
+									},
+									"breadcrumb": {
+										"@id": "/service_type/commercial/#breadcrumb"
+									},
+									"inLanguage": "en-US"
+								},
+								{
+									"@type": "BreadcrumbList",
+									"@id": "/service_type/commercial/#breadcrumb",
+									"itemListElement": [
+										{
+											"@type": "ListItem",
+											"position": 1,
+											"name": "Home",
+											"item": "/"
+										},
+										{
+											"@type": "ListItem",
+											"position": 2,
+											"name": "Commercial"
+										}
+									]
+								},
+								{
+									"@type": "WebSite",
+									"@id": "/#website",
+									"url": "/",
+									"name": "Shamrock Roofing and Construction",
+									"description": "One Call Does It All!",
+									"publisher": {
+										"@id": "/#organization"
+									},
+									"inLanguage": "en-US"
+								},
+								{
+									"@type": "Organization",
+									"@id": "/#organization",
+									"name": "Shamrock Roofing And Construction",
+									"url": "/",
+									"logo": {
+										"@type": "ImageObject",
+										"inLanguage": "en-US",
+										"@id": "/#/schema/logo/image/",
+										"url": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+										"contentUrl": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+										"width": 300,
+										"height": 200,
+										"caption": "Shamrock Roofing And Construction"
+									},
+									"image": {
+										"@id": "/#/schema/logo/image/"
+									},
+									"sameAs": [
+										"https://www.facebook.com/shamrockroofingkc/",
+										"https://twitter.com/ShamrockRoofer",
+										"https://www.instagram.com/shamrock_roofer/",
+										"https://www.linkedin.com/company/shamrock-roofing-construction/",
+										"https://www.youtube.com/channel/UC-WVccA6zbDesfIlnJcBm0g"
+									]
+								}
+							]
+						}
+					},
+					"_links": {
+						"self": [
+							{
+								"href": "/wp-json/wp/v2/service_type/1241"
+							}
+						],
+						"collection": [
+							{
+								"href": "/wp-json/wp/v2/service_type"
+							}
+						],
+						"about": [
+							{
+								"href": "/wp-json/wp/v2/taxonomies/service_type"
+							}
+						],
+						"wp:post_type": [
+							{
+								"href": "/wp-json/wp/v2/service?service_type=1241"
+							}
+						],
+						"curies": [
+							{
+								"name": "wp",
+								"href": "https://api.w.org/{rel}",
+								"templated": true
+							}
+						]
+					}
+				}
+			]
+		]
+	}
+}

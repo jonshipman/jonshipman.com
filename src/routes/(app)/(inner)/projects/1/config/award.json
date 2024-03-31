@@ -1,0 +1,712 @@
+{
+	"id": 181483,
+	"date": "2023-12-13T16:11:00",
+	"date_gmt": "2023-12-13T22:11:00",
+	"guid": {
+		"rendered": "https://staging.shamrockroofer.com/?post_type=award&#038;p=181483"
+	},
+	"modified": "2024-02-13T16:15:19",
+	"modified_gmt": "2024-02-13T22:15:19",
+	"slug": "owens-corning-platinum-preferred-contractor-2",
+	"status": "publish",
+	"type": "award",
+	"link": "/award/owens-corning-platinum-preferred-contractor-2/",
+	"title": {
+		"rendered": "Owen&#8217;s Corning Platinum Preferred Contractor"
+	},
+	"content": {
+		"rendered": "\n<p>Owens Corning Roofing and Asphalt has been a leader in the building industry, known for their commitment to excellence for 75 years. As a company who is recognized as the most trusted roofing <span style=\"font-weight: 400;\">brand, they</span> carry the ability to deem contractors with the status of being called <em><a href=\"https://www.owenscorning.com/en-us/roofing/tools/choosing-a-contractor\" target=\"_blank\" rel=\"noopener\"><strong>Owens Corning Roofing Platinum Preferred Contractors</strong></a>. </em>Carrying this title as Shamrock Roofers means that we have passed the workmanship installation inspection, carry at least $1,000,000 in general liability insurance, have been screened for financial stability and customer service, and have operated under the same business name for a minimum of three years. Having the Owens Corning seal of approval is just another reason that our customers can <a href=\"/service/roof-inspections/\"><span style=\"font-weight: 400;\">be confident</span></a> in the quality of our service.</p>\n",
+		"protected": false
+	},
+	"featured_media": 181484,
+	"template": "",
+	"meta": {
+		"heading": "",
+		"sub-heading": "",
+		"cta_link": "",
+		"cta": "",
+		"hero_video": 0,
+		"hero_video_webm": 0,
+		"alternative_featured_id": 195638
+	},
+	"area": [540, 541],
+	"post_class": "post-181483 award type-award status-publish has-post-thumbnail hentry area_on_page-awards-page area_on_page-home",
+	"alt_featured_image": {
+		"medium": "/wp-content/uploads/2021/05/owens-corning-platinum-300x150.png",
+		"large": "/wp-content/uploads/2021/05/owens-corning-platinum.png",
+		"full": "/wp-content/uploads/2021/05/owens-corning-platinum.png"
+	},
+	"hero_video_src": null,
+	"hero_video_webm_src": null,
+	"formatted_date": "December 13, 2023",
+	"yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.5 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Owen&#039;s Corning Platinum Preferred Contractor - Shamrock Roofing and Construction</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"/award/owens-corning-platinum-preferred-contractor-2/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Owen&#039;s Corning Platinum Preferred Contractor - Shamrock Roofing and Construction\" />\n<meta property=\"og:description\" content=\"Owens Corning Roofing and Asphalt has been a leader in the building industry, known for their commitment to excellence for 75 years. As a company who is recognized as the most trusted roofing brand, they carry the ability to deem contractors with the status of being called Owens Corning Roofing Platinum Preferred Contractors. Carrying this [&hellip;]\" />\n<meta property=\"og:url\" content=\"/award/owens-corning-platinum-preferred-contractor-2/\" />\n<meta property=\"og:site_name\" content=\"Shamrock Roofing and Construction\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/shamrockroofingkc/\" />\n<meta property=\"article:modified_time\" content=\"2024-02-13T22:15:19+00:00\" />\n<meta property=\"og:image\" content=\"/wp-content/uploads/2021/05/award-5-scaled.jpg\" />\n\t<meta property=\"og:image:width\" content=\"1920\" />\n\t<meta property=\"og:image:height\" content=\"2560\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@ShamrockRoofer\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\" />\n\t<meta name=\"twitter:data1\" content=\"1 minute\" />\n<!-- / Yoast SEO plugin. -->",
+	"yoast_head_json": {
+		"title": "Owen's Corning Platinum Preferred Contractor - Shamrock Roofing and Construction",
+		"robots": {
+			"index": "index",
+			"follow": "follow",
+			"max-snippet": "max-snippet:-1",
+			"max-image-preview": "max-image-preview:large",
+			"max-video-preview": "max-video-preview:-1"
+		},
+		"canonical": "/award/owens-corning-platinum-preferred-contractor-2/",
+		"og_locale": "en_US",
+		"og_type": "article",
+		"og_title": "Owen's Corning Platinum Preferred Contractor - Shamrock Roofing and Construction",
+		"og_description": "Owens Corning Roofing and Asphalt has been a leader in the building industry, known for their commitment to excellence for 75 years. As a company who is recognized as the most trusted roofing brand, they carry the ability to deem contractors with the status of being called Owens Corning Roofing Platinum Preferred Contractors. Carrying this [&hellip;]",
+		"og_url": "/award/owens-corning-platinum-preferred-contractor-2/",
+		"og_site_name": "Shamrock Roofing and Construction",
+		"article_publisher": "https://www.facebook.com/shamrockroofingkc/",
+		"article_modified_time": "2024-02-13T22:15:19+00:00",
+		"og_image": [
+			{
+				"width": 1920,
+				"height": 2560,
+				"url": "/wp-content/uploads/2021/05/award-5-scaled.jpg",
+				"type": "image/jpeg"
+			}
+		],
+		"twitter_card": "summary_large_image",
+		"twitter_site": "@ShamrockRoofer",
+		"twitter_misc": {
+			"Est. reading time": "1 minute"
+		},
+		"schema": {
+			"@context": "https://schema.org",
+			"@graph": [
+				{
+					"@type": "WebPage",
+					"@id": "/award/owens-corning-platinum-preferred-contractor-2/",
+					"url": "/award/owens-corning-platinum-preferred-contractor-2/",
+					"name": "Owen's Corning Platinum Preferred Contractor - Shamrock Roofing and Construction",
+					"isPartOf": {
+						"@id": "/#website"
+					},
+					"datePublished": "2023-12-13T22:11:00+00:00",
+					"dateModified": "2024-02-13T22:15:19+00:00",
+					"breadcrumb": {
+						"@id": "/award/owens-corning-platinum-preferred-contractor-2/#breadcrumb"
+					},
+					"inLanguage": "en-US",
+					"potentialAction": [
+						{
+							"@type": "ReadAction",
+							"target": ["/award/owens-corning-platinum-preferred-contractor-2/"]
+						}
+					]
+				},
+				{
+					"@type": "BreadcrumbList",
+					"@id": "/award/owens-corning-platinum-preferred-contractor-2/#breadcrumb",
+					"itemListElement": [
+						{
+							"@type": "ListItem",
+							"position": 1,
+							"name": "Home",
+							"item": "/"
+						},
+						{
+							"@type": "ListItem",
+							"position": 2,
+							"name": "Awards",
+							"item": "/award/"
+						},
+						{
+							"@type": "ListItem",
+							"position": 3,
+							"name": "Owen&#8217;s Corning Platinum Preferred Contractor"
+						}
+					]
+				},
+				{
+					"@type": "WebSite",
+					"@id": "/#website",
+					"url": "/",
+					"name": "Shamrock Roofing and Construction",
+					"description": "One Call Does It All!",
+					"publisher": {
+						"@id": "/#organization"
+					},
+					"inLanguage": "en-US"
+				},
+				{
+					"@type": "Organization",
+					"@id": "/#organization",
+					"name": "Shamrock Roofing And Construction",
+					"url": "/",
+					"logo": {
+						"@type": "ImageObject",
+						"inLanguage": "en-US",
+						"@id": "/#/schema/logo/image/",
+						"url": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+						"contentUrl": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+						"width": 300,
+						"height": 200,
+						"caption": "Shamrock Roofing And Construction"
+					},
+					"image": {
+						"@id": "/#/schema/logo/image/"
+					},
+					"sameAs": [
+						"https://www.facebook.com/shamrockroofingkc/",
+						"https://twitter.com/ShamrockRoofer",
+						"https://www.instagram.com/shamrock_roofer/",
+						"https://www.linkedin.com/company/shamrock-roofing-construction/",
+						"https://www.youtube.com/channel/UC-WVccA6zbDesfIlnJcBm0g"
+					]
+				}
+			]
+		}
+	},
+	"_links": {
+		"self": [
+			{
+				"href": "/wp-json/wp/v2/award/181483"
+			}
+		],
+		"collection": [
+			{
+				"href": "/wp-json/wp/v2/award"
+			}
+		],
+		"about": [
+			{
+				"href": "/wp-json/wp/v2/types/award"
+			}
+		],
+		"version-history": [
+			{
+				"count": 0,
+				"href": "/wp-json/wp/v2/award/181483/revisions"
+			}
+		],
+		"wp:featuredmedia": [
+			{
+				"embeddable": true,
+				"href": "/wp-json/wp/v2/media/181484"
+			}
+		],
+		"wp:attachment": [
+			{
+				"href": "/wp-json/wp/v2/media?parent=181483"
+			}
+		],
+		"wp:term": [
+			{
+				"taxonomy": "area_on_page",
+				"embeddable": true,
+				"href": "/wp-json/wp/v2/area?post=181483"
+			}
+		],
+		"curies": [
+			{
+				"name": "wp",
+				"href": "https://api.w.org/{rel}",
+				"templated": true
+			}
+		]
+	},
+	"_embedded": {
+		"wp:featuredmedia": [
+			{
+				"id": 181484,
+				"date": "2021-05-13T16:07:04",
+				"slug": "award-5",
+				"type": "attachment",
+				"link": "/award-5/",
+				"title": {
+					"rendered": "award 5"
+				},
+				"author": 13,
+				"post_class": "post-181484 attachment type-attachment status-inherit hentry",
+				"formatted_date": "May 13, 2021",
+				"yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.5 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>award 5 - Shamrock Roofing and Construction</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"award 5 - Shamrock Roofing and Construction\" />\n<meta property=\"og:url\" content=\"/wp-content/uploads/2021/05/award-5-scaled.jpg\" />\n<meta property=\"og:site_name\" content=\"Shamrock Roofing and Construction\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/shamrockroofingkc/\" />\n<meta property=\"article:modified_time\" content=\"2022-11-18T15:06:34+00:00\" />\n<meta property=\"og:image\" content=\"/wp-content/uploads/2021/05/award-5-scaled.jpg\" />\n\t<meta property=\"og:image:width\" content=\"1920\" />\n\t<meta property=\"og:image:height\" content=\"2560\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@ShamrockRoofer\" />\n<!-- / Yoast SEO plugin. -->",
+				"yoast_head_json": {
+					"title": "award 5 - Shamrock Roofing and Construction",
+					"robots": {
+						"index": "noindex",
+						"follow": "follow"
+					},
+					"og_locale": "en_US",
+					"og_type": "article",
+					"og_title": "award 5 - Shamrock Roofing and Construction",
+					"og_url": "/wp-content/uploads/2021/05/award-5-scaled.jpg",
+					"og_site_name": "Shamrock Roofing and Construction",
+					"article_publisher": "https://www.facebook.com/shamrockroofingkc/",
+					"article_modified_time": "2022-11-18T15:06:34+00:00",
+					"og_image": [
+						{
+							"width": 1920,
+							"height": 2560,
+							"url": "/wp-content/uploads/2021/05/award-5-scaled.jpg",
+							"type": "image/jpeg"
+						}
+					],
+					"twitter_card": "summary_large_image",
+					"twitter_site": "@ShamrockRoofer",
+					"schema": {
+						"@context": "https://schema.org",
+						"@graph": [
+							{
+								"@type": "WebPage",
+								"@id": "/wp-content/uploads/2021/05/award-5-scaled.jpg",
+								"url": "/wp-content/uploads/2021/05/award-5-scaled.jpg",
+								"name": "award 5 - Shamrock Roofing and Construction",
+								"isPartOf": {
+									"@id": "/#website"
+								},
+								"datePublished": "2021-05-13T21:07:04+00:00",
+								"dateModified": "2022-11-18T15:06:34+00:00",
+								"breadcrumb": {
+									"@id": "/wp-content/uploads/2021/05/award-5-scaled.jpg#breadcrumb"
+								},
+								"inLanguage": "en-US",
+								"potentialAction": [
+									{
+										"@type": "ReadAction",
+										"target": ["/wp-content/uploads/2021/05/award-5-scaled.jpg"]
+									}
+								]
+							},
+							{
+								"@type": "BreadcrumbList",
+								"@id": "/wp-content/uploads/2021/05/award-5-scaled.jpg#breadcrumb",
+								"itemListElement": [
+									{
+										"@type": "ListItem",
+										"position": 1,
+										"name": "Home",
+										"item": "/"
+									},
+									{
+										"@type": "ListItem",
+										"position": 2,
+										"name": "award 5"
+									}
+								]
+							},
+							{
+								"@type": "WebSite",
+								"@id": "/#website",
+								"url": "/",
+								"name": "Shamrock Roofing and Construction",
+								"description": "One Call Does It All!",
+								"publisher": {
+									"@id": "/#organization"
+								},
+								"inLanguage": "en-US"
+							},
+							{
+								"@type": "Organization",
+								"@id": "/#organization",
+								"name": "Shamrock Roofing And Construction",
+								"url": "/",
+								"logo": {
+									"@type": "ImageObject",
+									"inLanguage": "en-US",
+									"@id": "/#/schema/logo/image/",
+									"url": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+									"contentUrl": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+									"width": 300,
+									"height": 200,
+									"caption": "Shamrock Roofing And Construction"
+								},
+								"image": {
+									"@id": "/#/schema/logo/image/"
+								},
+								"sameAs": [
+									"https://www.facebook.com/shamrockroofingkc/",
+									"https://twitter.com/ShamrockRoofer",
+									"https://www.instagram.com/shamrock_roofer/",
+									"https://www.linkedin.com/company/shamrock-roofing-construction/",
+									"https://www.youtube.com/channel/UC-WVccA6zbDesfIlnJcBm0g"
+								]
+							}
+						]
+					}
+				},
+				"caption": {
+					"rendered": ""
+				},
+				"alt_text": "Owen's Corning Platinum Preferred Contractor",
+				"media_type": "image",
+				"mime_type": "image/jpeg",
+				"media_details": {
+					"width": 1920,
+					"height": 2560,
+					"file": "2021/05/award-5-scaled.jpg",
+					"sizes": {
+						"medium": {
+							"file": "award-5-225x300.jpg",
+							"width": 225,
+							"height": 300,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2021/05/award-5-225x300.jpg"
+						},
+						"large": {
+							"file": "award-5-768x1024.jpg",
+							"width": 768,
+							"height": 1024,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2021/05/award-5-768x1024.jpg"
+						},
+						"thumbnail": {
+							"file": "award-5-150x150.jpg",
+							"width": 150,
+							"height": 150,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2021/05/award-5-150x150.jpg"
+						},
+						"medium_large": {
+							"file": "award-5-768x1024.jpg",
+							"width": 768,
+							"height": 1024,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2021/05/award-5-768x1024.jpg"
+						},
+						"1536x1536": {
+							"file": "award-5-1152x1536.jpg",
+							"width": 1152,
+							"height": 1536,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2021/05/award-5-1152x1536.jpg"
+						},
+						"2048x2048": {
+							"file": "award-5-1536x2048.jpg",
+							"width": 1536,
+							"height": 2048,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2021/05/award-5-1536x2048.jpg"
+						},
+						"full": {
+							"file": "award-5-scaled.jpg",
+							"width": 1920,
+							"height": 2560,
+							"mime_type": "image/jpeg",
+							"source_url": "/wp-content/uploads/2021/05/award-5-scaled.jpg"
+						}
+					},
+					"image_meta": {
+						"aperture": "1.8",
+						"credit": "",
+						"camera": "iPhone 11",
+						"caption": "",
+						"created_timestamp": "1619198750",
+						"copyright": "",
+						"focal_length": "4.25",
+						"iso": "500",
+						"shutter_speed": "0.018181818181818",
+						"title": "",
+						"orientation": "0",
+						"keywords": []
+					},
+					"original_image": "award-5.jpg"
+				},
+				"source_url": "/wp-content/uploads/2021/05/award-5-scaled.jpg",
+				"_links": {
+					"self": [
+						{
+							"href": "/wp-json/wp/v2/media/181484"
+						}
+					],
+					"collection": [
+						{
+							"href": "/wp-json/wp/v2/media"
+						}
+					],
+					"about": [
+						{
+							"href": "/wp-json/wp/v2/types/attachment"
+						}
+					],
+					"author": [
+						{
+							"embeddable": true,
+							"href": "/wp-json/wp/v2/users/13"
+						}
+					],
+					"replies": [
+						{
+							"embeddable": true,
+							"href": "/wp-json/wp/v2/comments?post=181484"
+						}
+					]
+				}
+			}
+		],
+		"wp:term": [
+			[
+				{
+					"id": 540,
+					"link": "/area/awards-page/",
+					"name": "Awards Page",
+					"slug": "awards-page",
+					"taxonomy": "area_on_page",
+					"yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.5 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Awards Page Archives - Shamrock Roofing and Construction</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"/area/awards-page/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Awards Page Archives - Shamrock Roofing and Construction\" />\n<meta property=\"og:url\" content=\"/area/awards-page/\" />\n<meta property=\"og:site_name\" content=\"Shamrock Roofing and Construction\" />\n<meta property=\"og:image\" content=\"/wp-content/uploads/2018/01/ShamrockLogo.png\" />\n\t<meta property=\"og:image:width\" content=\"300\" />\n\t<meta property=\"og:image:height\" content=\"200\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@ShamrockRoofer\" />\n<!-- / Yoast SEO plugin. -->",
+					"yoast_head_json": {
+						"title": "Awards Page Archives - Shamrock Roofing and Construction",
+						"robots": {
+							"index": "index",
+							"follow": "follow",
+							"max-snippet": "max-snippet:-1",
+							"max-image-preview": "max-image-preview:large",
+							"max-video-preview": "max-video-preview:-1"
+						},
+						"canonical": "/area/awards-page/",
+						"og_locale": "en_US",
+						"og_type": "article",
+						"og_title": "Awards Page Archives - Shamrock Roofing and Construction",
+						"og_url": "/area/awards-page/",
+						"og_site_name": "Shamrock Roofing and Construction",
+						"og_image": [
+							{
+								"width": 300,
+								"height": 200,
+								"url": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+								"type": "image/png"
+							}
+						],
+						"twitter_card": "summary_large_image",
+						"twitter_site": "@ShamrockRoofer",
+						"schema": {
+							"@context": "https://schema.org",
+							"@graph": [
+								{
+									"@type": "CollectionPage",
+									"@id": "/area/awards-page/",
+									"url": "/area/awards-page/",
+									"name": "Awards Page Archives - Shamrock Roofing and Construction",
+									"isPartOf": {
+										"@id": "/#website"
+									},
+									"breadcrumb": {
+										"@id": "/area/awards-page/#breadcrumb"
+									},
+									"inLanguage": "en-US"
+								},
+								{
+									"@type": "BreadcrumbList",
+									"@id": "/area/awards-page/#breadcrumb",
+									"itemListElement": [
+										{
+											"@type": "ListItem",
+											"position": 1,
+											"name": "Home",
+											"item": "/"
+										},
+										{
+											"@type": "ListItem",
+											"position": 2,
+											"name": "Awards Page"
+										}
+									]
+								},
+								{
+									"@type": "WebSite",
+									"@id": "/#website",
+									"url": "/",
+									"name": "Shamrock Roofing and Construction",
+									"description": "One Call Does It All!",
+									"publisher": {
+										"@id": "/#organization"
+									},
+									"inLanguage": "en-US"
+								},
+								{
+									"@type": "Organization",
+									"@id": "/#organization",
+									"name": "Shamrock Roofing And Construction",
+									"url": "/",
+									"logo": {
+										"@type": "ImageObject",
+										"inLanguage": "en-US",
+										"@id": "/#/schema/logo/image/",
+										"url": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+										"contentUrl": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+										"width": 300,
+										"height": 200,
+										"caption": "Shamrock Roofing And Construction"
+									},
+									"image": {
+										"@id": "/#/schema/logo/image/"
+									},
+									"sameAs": [
+										"https://www.facebook.com/shamrockroofingkc/",
+										"https://twitter.com/ShamrockRoofer",
+										"https://www.instagram.com/shamrock_roofer/",
+										"https://www.linkedin.com/company/shamrock-roofing-construction/",
+										"https://www.youtube.com/channel/UC-WVccA6zbDesfIlnJcBm0g"
+									]
+								}
+							]
+						}
+					},
+					"_links": {
+						"self": [
+							{
+								"href": "/wp-json/wp/v2/area/540"
+							}
+						],
+						"collection": [
+							{
+								"href": "/wp-json/wp/v2/area"
+							}
+						],
+						"about": [
+							{
+								"href": "/wp-json/wp/v2/taxonomies/area_on_page"
+							}
+						],
+						"wp:post_type": [
+							{
+								"href": "/wp-json/wp/v2/award?area=540"
+							}
+						],
+						"curies": [
+							{
+								"name": "wp",
+								"href": "https://api.w.org/{rel}",
+								"templated": true
+							}
+						]
+					}
+				},
+				{
+					"id": 541,
+					"link": "/area/home/",
+					"name": "Home",
+					"slug": "home",
+					"taxonomy": "area_on_page",
+					"yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.5 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Home Archives - Shamrock Roofing and Construction</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"/area/home/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Home Archives - Shamrock Roofing and Construction\" />\n<meta property=\"og:url\" content=\"/area/home/\" />\n<meta property=\"og:site_name\" content=\"Shamrock Roofing and Construction\" />\n<meta property=\"og:image\" content=\"/wp-content/uploads/2018/01/ShamrockLogo.png\" />\n\t<meta property=\"og:image:width\" content=\"300\" />\n\t<meta property=\"og:image:height\" content=\"200\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@ShamrockRoofer\" />\n<!-- / Yoast SEO plugin. -->",
+					"yoast_head_json": {
+						"title": "Home Archives - Shamrock Roofing and Construction",
+						"robots": {
+							"index": "index",
+							"follow": "follow",
+							"max-snippet": "max-snippet:-1",
+							"max-image-preview": "max-image-preview:large",
+							"max-video-preview": "max-video-preview:-1"
+						},
+						"canonical": "/area/home/",
+						"og_locale": "en_US",
+						"og_type": "article",
+						"og_title": "Home Archives - Shamrock Roofing and Construction",
+						"og_url": "/area/home/",
+						"og_site_name": "Shamrock Roofing and Construction",
+						"og_image": [
+							{
+								"width": 300,
+								"height": 200,
+								"url": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+								"type": "image/png"
+							}
+						],
+						"twitter_card": "summary_large_image",
+						"twitter_site": "@ShamrockRoofer",
+						"schema": {
+							"@context": "https://schema.org",
+							"@graph": [
+								{
+									"@type": "CollectionPage",
+									"@id": "/area/home/",
+									"url": "/area/home/",
+									"name": "Home Archives - Shamrock Roofing and Construction",
+									"isPartOf": {
+										"@id": "/#website"
+									},
+									"breadcrumb": {
+										"@id": "/area/home/#breadcrumb"
+									},
+									"inLanguage": "en-US"
+								},
+								{
+									"@type": "BreadcrumbList",
+									"@id": "/area/home/#breadcrumb",
+									"itemListElement": [
+										{
+											"@type": "ListItem",
+											"position": 1,
+											"name": "Home",
+											"item": "/"
+										},
+										{
+											"@type": "ListItem",
+											"position": 2,
+											"name": "Home"
+										}
+									]
+								},
+								{
+									"@type": "WebSite",
+									"@id": "/#website",
+									"url": "/",
+									"name": "Shamrock Roofing and Construction",
+									"description": "One Call Does It All!",
+									"publisher": {
+										"@id": "/#organization"
+									},
+									"inLanguage": "en-US"
+								},
+								{
+									"@type": "Organization",
+									"@id": "/#organization",
+									"name": "Shamrock Roofing And Construction",
+									"url": "/",
+									"logo": {
+										"@type": "ImageObject",
+										"inLanguage": "en-US",
+										"@id": "/#/schema/logo/image/",
+										"url": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+										"contentUrl": "/wp-content/uploads/2018/01/ShamrockLogo.png",
+										"width": 300,
+										"height": 200,
+										"caption": "Shamrock Roofing And Construction"
+									},
+									"image": {
+										"@id": "/#/schema/logo/image/"
+									},
+									"sameAs": [
+										"https://www.facebook.com/shamrockroofingkc/",
+										"https://twitter.com/ShamrockRoofer",
+										"https://www.instagram.com/shamrock_roofer/",
+										"https://www.linkedin.com/company/shamrock-roofing-construction/",
+										"https://www.youtube.com/channel/UC-WVccA6zbDesfIlnJcBm0g"
+									]
+								}
+							]
+						}
+					},
+					"_links": {
+						"self": [
+							{
+								"href": "/wp-json/wp/v2/area/541"
+							}
+						],
+						"collection": [
+							{
+								"href": "/wp-json/wp/v2/area"
+							}
+						],
+						"about": [
+							{
+								"href": "/wp-json/wp/v2/taxonomies/area_on_page"
+							}
+						],
+						"wp:post_type": [
+							{
+								"href": "/wp-json/wp/v2/award?area=541"
+							}
+						],
+						"curies": [
+							{
+								"name": "wp",
+								"href": "https://api.w.org/{rel}",
+								"templated": true
+							}
+						]
+					}
+				}
+			]
+		]
+	}
+}

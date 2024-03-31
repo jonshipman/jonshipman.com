@@ -4,6 +4,9 @@ import { mdsvex } from 'mdsvex';
 
 const config = {
 	kit: {
+		alias: {
+			$1: 'src/routes/(app)/(inner)/projects/1'
+		},
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',

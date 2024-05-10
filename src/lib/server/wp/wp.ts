@@ -1,5 +1,5 @@
 import { WORDPRESS, WP_PASS, WP_USER } from '$env/static/private';
-import type { WpMedia, WpPage, WpPost, WpPosts, WpSettings } from '$lib/wp';
+import type { WpMedia, WpPage, WpPost, WpPosts, WpSettings, WpTerm } from '$lib/wp';
 
 interface CacheType {
 	post: unknown;
@@ -35,7 +35,7 @@ class Wp {
 		return Buffer.from(up, 'utf8').toString('base64');
 	}
 
-	getcache<T extends WpPost>(key: string): T | null {
+	getcache<T = WpPost>(key: string): T | null {
 		const self = this.constructor as typeof Wp;
 		if (self.memcache.has(key)) {
 			const cache = self.memcache.get(key);
@@ -48,7 +48,7 @@ class Wp {
 		return null;
 	}
 
-	cache<T extends WpPost>(key: string, post: T) {
+	cache<T = WpPost>(key: string, post: T) {
 		const self = this.constructor as typeof Wp;
 		self.memcache.set(key, { post, expires: Date.now() + 3600000 });
 	}
@@ -82,10 +82,10 @@ class Wp {
 		return result;
 	}
 
-	async category(slug: string) {
+	async category(slug: string): Promise<WpTerm | null> {
 		const self = this.constructor as typeof Wp;
 		const key = `__category__` + slug;
-		const cache = this.getcache(key);
+		const cache = this.getcache<WpTerm>(key);
 		if (cache) return cache;
 
 		const url = new URL(self.baseUrl + '/wp/v2/categories');
@@ -103,8 +103,36 @@ class Wp {
 			const result = await this.process(response);
 
 			if (result.length) {
-				this.cache(key, result[0]);
+				this.cache<WpTerm>(key, result[0]);
 				return result[0];
+			}
+		}
+
+		return null;
+	}
+
+	async categoryById(id: number): Promise<WpTerm | null> {
+		const self = this.constructor as typeof Wp;
+		const key = `__categoryid__` + id;
+		const cache = this.getcache<WpTerm>(key);
+		if (cache) return cache;
+
+		const url = new URL(self.baseUrl + '/wp/v2/categories/' + id);
+		url.searchParams.set('_embed', '1');
+
+		const response = await this.fetch(url.toString(), {
+			headers: new Headers({
+				authorization: `Basic ${this.token()}`,
+				'content-type': 'application/json'
+			})
+		});
+
+		if (response.ok) {
+			const result = await this.process(response);
+
+			if (result) {
+				this.cache<WpTerm>(key, result);
+				return result;
 			}
 		}
 

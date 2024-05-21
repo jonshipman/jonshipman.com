@@ -316,3 +316,30 @@ export interface WpPosts<T = WpPost> {
 }
 
 export type WpPage = WpPost;
+
+export interface WpPostType {
+	description: string;
+	hierarchical: boolean;
+	has_archive: boolean;
+	name: string;
+	slug: string;
+	icon: string;
+	taxonomies: Array<string>;
+	rest_base: string;
+	rest_namespace: string;
+	yoast_head: string;
+	yoast_head_json: YoastHead;
+	_links: {
+		collection: Array<{
+			href: string;
+		}>;
+		'wp:items': Array<{
+			href: string;
+		}>;
+		curies: Array<{
+			name: string;
+			href: string;
+			templated: boolean;
+		}>;
+	};
+}

@@ -29,7 +29,7 @@
 			</div>
 
 			<p class="my-8 text-xl">
-				I'm a fullstack web developer working out of Lenexa, KS. <br class="hidden md:block" />
+				I'm a fullstack web developer working out of Denver, CO. <br class="hidden md:block" />
 				I make stuff, check it out.
 			</p>
 		</div>

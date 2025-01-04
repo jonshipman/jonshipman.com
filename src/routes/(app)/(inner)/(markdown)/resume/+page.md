@@ -8,7 +8,13 @@ A full-stack developer invested in user experience and programmatic solutions.
 
 ## Working Experience
 
-#### Shae Marcus Consulting (Director of Software Engineering, Oct 2014 - current) 
+#### Jon Shipman LLC (Owner/Founder, Jan 2025 - current)
+
+- Founded and managed a full-stack development company.
+- Delivered custom software solutions tailored to client needs.
+- Provided ongoing maintenance and updates for client websites.
+
+#### Shae Marcus Consulting (Director of Software Engineering, Oct 2014 - Dec 2024) 
 
 - Managed forty websites and their ongoing maintenance (platform updates, Linux updates, content edits, docker container deployments).
 - Wrote the proposal and executed a custom LAMP site for managing limo/driver rentals to and from airports (airportservice.com). Included a javascript embed distributed to client's partner websites.

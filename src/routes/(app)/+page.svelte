@@ -24,7 +24,7 @@
 <div class="px-8 max-w-screen-7xl mx-auto">
 	<div class="welcome -mx-8 lg:mx-0 lg:rounded-2xl px-8 py-32 md:py-60">
 		<div class="welcome-text bg-clip-text text-transparent text-center">
-			<div class="text-7xl font-extrabold" use:lookupInStorage>
+			<div class="text-5xl md:text-7xl font-extrabold" use:lookupInStorage>
 				{@html text}
 			</div>
 

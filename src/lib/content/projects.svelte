@@ -17,7 +17,9 @@
 			cross-platform setup script.
 		</p>
 
-		<img src={sveltekit} slot="image" alt="SvelteKit + Pocketbase" />
+		{#snippet image()}
+			<img src={sveltekit} alt="SvelteKit + Pocketbase" />
+		{/snippet}
 	</ProjectCard>
 
 	<ProjectCard
@@ -28,7 +30,9 @@
 	>
 		<p>POC Android application written with Sveltekit, TailwindCSS, and Capacitor.</p>
 
-		<img src={tipcalc} slot="image" alt="Tip Calculation Calculator" />
+		{#snippet image()}
+			<img src={tipcalc} alt="Tip Calculation Calculator" />
+		{/snippet}
 	</ProjectCard>
 
 	<ProjectCard
@@ -42,6 +46,8 @@
 			realtime data demoed. SSR + CSR compatible using HTTP cookie sharing.
 		</p>
 
-		<img src={remix} slot="image" alt="Remix + Pocketbase" />
+		{#snippet image()}
+			<img src={remix} alt="Remix + Pocketbase" />
+		{/snippet}
 	</ProjectCard>
 </div>

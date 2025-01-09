@@ -4,7 +4,7 @@
 
 <Projects />
 
-<div class="text-center py-16 md:py-32">
+<div class="py-16 text-center md:py-32">
 	More to Come. Checkout my <a
 		href="https://github.com/jonshipman"
 		rel="nofollow noopen"

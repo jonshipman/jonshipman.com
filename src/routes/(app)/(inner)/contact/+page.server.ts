@@ -43,7 +43,7 @@ export const actions = {
 				text: message,
 				html: '<p>' + message.split('\n').join('<br/>') + '</p>'
 			});
-		} catch (_) {
+		} catch {
 			return fail(400, { error: 'Transport failed. Just email me @ jon@jonshipman.com, ok?' });
 		}
 

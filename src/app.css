@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+svg {
+	fill: currentColor;
+}
+
+.no-tailwind * {
+	all: revert;
+}

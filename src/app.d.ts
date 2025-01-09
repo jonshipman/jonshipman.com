@@ -1,3 +1,5 @@
 declare global {
-	interface Window {}
+	namespace App {}
 }
+
+export {};

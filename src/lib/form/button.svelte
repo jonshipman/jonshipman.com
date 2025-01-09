@@ -1,10 +1,27 @@
 <script lang="ts">
-	export let wide = false;
-	export let href = '';
-	export let weak = false;
-	export let rel = '';
+	import type { Snippet } from 'svelte';
 
-	let className = 'contents';
+	type PropTypes = {
+		wide?: boolean;
+		href?: string;
+		weak?: boolean;
+		rel?: string;
+		class?: string;
+		children: Snippet;
+		onclick?: () => void;
+		onkeypress?: () => void;
+	};
+
+	let {
+		wide = false,
+		href = '',
+		weak = false,
+		rel = '',
+		class: className = 'contents',
+		children,
+		onclick,
+		onkeypress
+	}: PropTypes = $props();
 
 	const classes = {
 		default:
@@ -15,18 +32,16 @@
 	};
 
 	const elementClasses = `${classes.default} ${weak ? classes.weak : classes.strong} ${wide ? classes.wide : ''}`;
-
-	export { className as class };
 </script>
 
 <div class={className}>
 	{#if href}
 		<a {href} class={elementClasses} {rel}>
-			<slot />
+			{@render children()}
 		</a>
 	{:else}
-		<button type="submit" on:click on:keypress class={elementClasses}>
-			<slot />
+		<button type="submit" {onclick} {onkeypress} class={elementClasses}>
+			{@render children()}
 		</button>
 	{/if}
 </div>

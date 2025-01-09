@@ -7,8 +7,8 @@
 
 	const experience = new Date().getFullYear() - 2007;
 
-	let text = '&nbsp;';
-	let mounted = false;
+	let text = $state('&nbsp;');
+	let mounted = $state(false);
 
 	function lookupInStorage(node: HTMLDivElement) {
 		const storage = window.localStorage.getItem('visited');
@@ -21,10 +21,10 @@
 	});
 </script>
 
-<div class="px-8 max-w-screen-7xl mx-auto">
-	<div class="welcome -mx-8 lg:mx-0 lg:rounded-2xl px-8 py-32 md:py-60">
-		<div class="welcome-text bg-clip-text text-transparent text-center">
-			<div class="text-5xl md:text-7xl font-extrabold" use:lookupInStorage>
+<div class="max-w-screen-7xl mx-auto px-8">
+	<div class="welcome -mx-8 px-8 py-32 md:py-60 lg:mx-0 lg:rounded-2xl">
+		<div class="welcome-text bg-clip-text text-center text-transparent">
+			<div class="text-5xl font-extrabold md:text-7xl" use:lookupInStorage>
 				{@html text}
 			</div>
 
@@ -42,12 +42,12 @@
 	</div>
 
 	<Container class="py-16 md:py-32">
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-32">
+		<div class="grid grid-cols-1 gap-32 md:grid-cols-2">
 			<div class="relative">
-				<div class="md:sticky top-0 md:-mt-8">
+				<div class="top-0 md:sticky md:-mt-8">
 					<div class="pt-8 text-4xl font-semibold">Expertise &amp; Specialties</div>
 
-					<p class="my-8 leading-realxed">
+					<p class="leading-realxed my-8">
 						As a seasoned web developer, I bring a wealth of experience and a passion for crafting
 						robust, user-friendly digital experiences. My expertise lies in translating innovative
 						ideas into functional, visually appealing websites. From front-end development using
@@ -66,7 +66,7 @@
 	</Container>
 
 	<Container class="py-16 md:py-32">
-		<header class="flex items-center mb-8">
+		<header class="mb-8 flex items-center">
 			<div class="pt-8 text-4xl font-semibold">Web Wonders</div>
 			<Button class="ml-auto" href="/projects">Projects</Button>
 		</header>

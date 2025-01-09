@@ -1,22 +1,28 @@
 <script lang="ts">
 	import { applyAction, enhance } from '$app/forms';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import type { SubmitFunction } from '@sveltejs/kit';
+	import { onMount, type Snippet } from 'svelte';
 	import { fade } from 'svelte/transition';
 	import Button from './button.svelte';
 	import Field from './field.svelte';
-	import { onMount } from 'svelte';
 
-	export let action: string | undefined = undefined;
+	type PropTypes = { action?: string | undefined; class?: string; children?: Snippet };
 
-	let honeypot = 'text';
-	let className = '';
-	let btnVisible = false;
+	let { action, class: className = '', children }: PropTypes = $props();
 
-	$: error = $page.form?.error || '';
-	$: success = $page.form?.success || '';
+	let honeypot = $state('text');
+	let btnVisible = $state(false);
+	let error = $state('');
+	let success = $state('');
 
-	function handleCloseError() {
+	$effect(function () {
+		error = page.form?.error || '';
+		success = page.form?.success || '';
+	});
+
+	function handleCloseError(event: Event) {
+		event.preventDefault();
 		error = '';
 	}
 
@@ -52,20 +58,20 @@
 
 <form {action} method="POST" class={className} use:enhance={handleSubmit}>
 	{#if error || success}
-		<div transition:fade class="flex items-center justify-center relative text-center">
-			<div class="z-10 absolute bottom-16 max-w-5xl mx-auto w-full">
+		<div transition:fade class="relative flex items-center justify-center text-center">
+			<div class="absolute bottom-16 z-10 mx-auto w-full max-w-5xl">
 				{#if error}
 					<div
-						class="mb-4 last:mb-0 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded"
+						class="mb-4 rounded border border-red-400 bg-red-100 px-4 py-3 text-red-700 last:mb-0"
 						role="alert"
 					>
 						{@html error}
-						<span class="absolute top-0 bottom-0 right-0 px-4 py-3">
+						<span class="absolute bottom-0 right-0 top-0 px-4 py-3">
 							<svg
-								on:click|stopPropagation={handleCloseError}
-								on:keydown|stopPropagation={handleCloseError}
+								onclick={handleCloseError}
+								onkeydown={handleCloseError}
 								tabindex={0}
-								class="fill-current h-6 w-6 text-red-500"
+								class="h-6 w-6 fill-current text-red-500"
 								role="button"
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 20 20"
@@ -81,7 +87,7 @@
 
 				{#if success}
 					<div
-						class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded"
+						class="rounded border border-green-400 bg-green-100 px-4 py-3 text-green-700"
 						role="alert"
 					>
 						{@html success}
@@ -93,8 +99,10 @@
 
 	<input {...{ type: honeypot }} name="phone" />
 
-	<slot>
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+	{#if children}
+		{@render children()}
+	{:else}
+		<div class="mb-6 grid grid-cols-1 gap-4 md:grid-cols-2">
 			<Field name="name" placeholder="Full Name" label="Name" required />
 			<Field name="email" type="email" placeholder="Email Address" label="Email" required />
 			<Field
@@ -121,7 +129,7 @@
 				</div>
 			{/if}
 		</div>
-	</slot>
+	{/if}
 </form>
 
 <style lang="postcss">

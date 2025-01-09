@@ -1,13 +1,11 @@
 <script lang="ts">
 	import { Github, LinkedIn, Resume } from '$lib/icons';
 
-	let className = 'contents';
-
-	export { className as class };
+	let { class: className = 'contents' } = $props();
 </script>
 
 <div class={className}>
-	<div class="flex justify-center md:justify-normal gap-8 md:gap-4 items-center text-purple-800">
+	<div class="flex items-center justify-center gap-8 text-purple-800 md:justify-normal md:gap-4">
 		<a
 			href="https://www.linkedin.com/in/jon-shipman-91ab44178/"
 			target="_new"

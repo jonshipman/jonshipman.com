@@ -1,11 +1,16 @@
 <script lang="ts">
-	let className = 'contents';
+	import type { Snippet } from 'svelte';
 
-	export { className as class };
+	type PropTypes = {
+		class?: string;
+		children: Snippet;
+	};
+
+	let { class: className = 'contents', children }: PropTypes = $props();
 </script>
 
 <div class={className}>
-	<div class="max-w-7xl w-full px-8 mx-auto">
-		<slot />
+	<div class="mx-auto w-full max-w-7xl px-8">
+		{@render children()}
 	</div>
 </div>

@@ -2,6 +2,7 @@ import remix from './remix.webp';
 import sveltekit from './sveltekit.webp';
 import tipcalc from './tipcalc.webp';
 import trussi from './trussi.webp';
+import heartland from './heartland-company.jpg';
 import type { Project } from './types';
 
 export const Projects: Project[] = [
@@ -16,13 +17,13 @@ export const Projects: Project[] = [
 		isFeatured: true
 	},
 	{
-		title: 'SvelteKit + Pocketbase',
-		category: 'boilerplate',
-		href: 'https://github.com/jonshipman/sveltekit-pb-boilerplate',
+		title: 'Bespoke WordPress Development: HeartLand Company',
+		category: 'wordpress',
+		href: 'https://heartlandcompany.com/',
 		color: 'green',
 		content:
-			'A reusable template for a SvelteKit + Pocketbase website. Includes SSR and CSR authentication and security. Provides screens for login, registration, and forgot password. Easy to use cross-platform setup script.',
-		image: sveltekit,
+			'Built a custom WordPress theme for a nationwide landscaping company. The theme was built with a focus on automatic deployments, custom Elementor widgets, and data seeding during installation.',
+		image: heartland,
 		isFeatured: true
 	},
 	{
@@ -32,7 +33,7 @@ export const Projects: Project[] = [
 		href: 'https://github.com/jonshipman/tip-calculator',
 		content: 'POC Android application written with Sveltekit, TailwindCSS, and Capacitor.',
 		image: tipcalc,
-		isFeatured: true
+		isFeatured: false
 	},
 	{
 		title: 'Remix + Pocketbase',
@@ -42,6 +43,16 @@ export const Projects: Project[] = [
 		content:
 			"React based implementation of Pocketbase's authentication stack. Includes login, logout, and realtime data demoed. SSR + CSR compatible using HTTP cookie sharing.",
 		image: remix,
-		isFeatured: true
+		isFeatured: false
+	},
+	{
+		title: 'SvelteKit + Pocketbase',
+		category: 'boilerplate',
+		href: 'https://github.com/jonshipman/sveltekit-pb-boilerplate',
+		color: 'green',
+		content:
+			'A reusable template for a SvelteKit + Pocketbase website. Includes SSR and CSR authentication and security. Provides screens for login, registration, and forgot password. Easy to use cross-platform setup script.',
+		image: sveltekit,
+		isFeatured: false
 	}
 ];

@@ -56,7 +56,9 @@
 	</div>
 	<div class="image relative hidden md:block">
 		{#if image}
-			{@render image()}
+			<a {href} rel="noopen nofollow">
+				{@render image()}
+			</a>
 		{/if}
 	</div>
 </div>
@@ -71,7 +73,7 @@
 	}
 
 	.wrapper :global(img) {
-		@apply absolute left-0 transition-transform rounded-xl;
+		@apply absolute left-0 translate-y-6 rounded-xl transition-transform;
 	}
 
 	.wrapper:hover :global(img) {

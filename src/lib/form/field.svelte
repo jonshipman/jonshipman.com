@@ -8,6 +8,7 @@
 		required?: boolean;
 		placeholder?: string;
 		rows?: number;
+		value?: string;
 	};
 
 	let {
@@ -18,7 +19,8 @@
 		autocomplete = null,
 		required = false,
 		placeholder = '',
-		rows = 3
+		rows = 3,
+		value = $bindable('')
 	}: PropTypes = $props();
 
 	let id = $state('');
@@ -47,6 +49,7 @@
 				{rows}
 				class={elementClass}
 				use:idgen
+				bind:value
 			></textarea>
 		{:else}
 			<input
@@ -57,6 +60,7 @@
 				{required}
 				{placeholder}
 				class={elementClass}
+				bind:value
 				use:idgen
 			/>
 		{/if}

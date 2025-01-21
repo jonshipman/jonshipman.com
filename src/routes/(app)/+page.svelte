@@ -71,7 +71,7 @@
 			<Button class="ml-auto" href="/projects">Projects</Button>
 		</header>
 
-		<Projects />
+		<Projects isFeatured />
 	</Container>
 </div>
 

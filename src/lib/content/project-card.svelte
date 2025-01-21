@@ -71,7 +71,7 @@
 	}
 
 	.wrapper :global(img) {
-		@apply absolute left-0 transition-transform;
+		@apply absolute left-0 transition-transform rounded-xl;
 	}
 
 	.wrapper:hover :global(img) {

@@ -4,6 +4,7 @@
 	import { Button } from '$lib/form';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
+	import hosting from './hosting.png';
 
 	const experience = new Date().getFullYear() - 2007;
 
@@ -72,6 +73,26 @@
 		</header>
 
 		<Projects isFeatured />
+	</Container>
+
+	<Container class="py-16 md:py-32">
+		<div class="grid grid-cols-1 gap-32 md:grid-cols-2 items-center">
+			<div class="relative">
+				<div class="top-0 md:sticky md:-mt-8">
+					<div class="pt-8 text-4xl font-semibold">Hosting</div>
+
+					<p class="leading-realxed my-8">
+						Looking for reliable and affordable website hosting? I offer a range of hosting
+						solutions to fit your needs. Contact me today for a free quote and to discuss your
+						hosting requirements.
+					</p>
+
+					<Button href="/contact">Contact</Button>
+				</div>
+			</div>
+
+			<div><img src={hosting} class="block rounded-xl" alt="Hosting" /></div>
+		</div>
 	</Container>
 </div>
 

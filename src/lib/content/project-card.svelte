@@ -1,14 +1,10 @@
 <script lang="ts">
-	import { page } from '$app/state';
 	import type { Snippet } from 'svelte';
-	import type { TailwindConfig } from '$lib/server/util';
-
-	const tailwind: TailwindConfig = page.data.tailwind;
 
 	type PropTypes = {
 		title: string;
 		category: string;
-		href: string;
+		href?: string;
 		children: Snippet;
 		image?: Snippet;
 	};
@@ -37,7 +33,9 @@
 		{/if}
 
 		{#if category}
-			<div class="select-none border-l border-gray-300 pl-4 text-gray-700 text-xs ml-4">{category}</div>
+			<div class="ml-4 select-none border-l border-gray-300 pl-4 text-xs text-gray-700">
+				{category}
+			</div>
 		{/if}
 	</header>
 

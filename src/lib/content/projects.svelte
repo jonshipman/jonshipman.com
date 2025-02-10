@@ -3,7 +3,7 @@
 	import ProjectCard from './project-card.svelte';
 </script>
 
-<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 	{#each Projects as project}
 		<ProjectCard title={project.title} category={project.category} href={project.href}>
 			<p>{project.content}</p>

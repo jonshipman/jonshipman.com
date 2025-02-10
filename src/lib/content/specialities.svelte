@@ -38,7 +38,7 @@
 </script>
 
 <div class={className}>
-	<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+	<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 		<TechCard title="JavaScript">
 			{#snippet icon()}
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

@@ -11,7 +11,7 @@
 				<enhanced:img
 					src={project.image}
 					alt={project.title}
-					class="aspect-video rounded-lg object-cover object-top"
+					class="aspect-video rounded-lg object-cover object-top w-full"
 				/>
 			{/snippet}
 		</ProjectCard>

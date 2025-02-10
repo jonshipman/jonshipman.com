@@ -2,6 +2,8 @@ import heartland from './heartland-company.webp?enhanced&w=360';
 import trussi from './trussi.webp?enhanced&w=360';
 import shamrockroofer from './shamrockroofer.webp?enhanced&w=360';
 import airportservice from './airport-service.webp?enhanced&w=360';
+import spotlight from './spotlight.webp?enhanced&w=360';
+import catholickey from './catholic-key.webp?enhanced&w=360';
 import type { Project } from './types';
 
 export const Projects: Project[] = [
@@ -36,5 +38,21 @@ export const Projects: Project[] = [
 		content:
 			"Architected and implemented a Headless WordPress solution with a SvelteKit front-end, utilizing WordPress's embedded REST framework.",
 		image: shamrockroofer
+	},
+	{
+		title: 'Spotlight Family Office',
+		category: 'wordpress',
+		href: 'https://www.spotlightfamilyoffice.com/',
+		content:
+			'Led the development of a custom WordPress webinar platform, including integration with ConstantContact.',
+		image: spotlight
+	},
+	{
+		title: 'Catholic Key',
+		category: 'wordpress',
+		href: 'https://catholickey.org/',
+		content:
+			'Designed and built a custom WordPress theme for Catholic Key.  This project utilized React for front-end development and the WordPress REST API to fetch and display dynamic content.',
+		image: catholickey
 	}
 ];

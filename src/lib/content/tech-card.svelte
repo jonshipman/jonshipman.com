@@ -1,9 +1,5 @@
 <script lang="ts">
-	import { page } from '$app/state';
-	import type { TailwindConfig } from '$lib/server/util';
 	import type { Snippet } from 'svelte';
-
-	const tailwind: TailwindConfig = page.data.tailwind;
 
 	type PropTypes = {
 		class?: string;

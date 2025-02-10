@@ -8,7 +8,7 @@
 		<ProjectCard title={project.title} category={project.category} href={project.href}>
 			<p>{project.content}</p>
 			{#snippet image()}
-				<img
+				<enhanced:img
 					src={project.image}
 					alt={project.title}
 					class="aspect-video rounded-lg object-cover object-top"

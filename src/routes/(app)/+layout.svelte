@@ -3,8 +3,6 @@
 	import { Links } from '$lib/content';
 	import { Button } from '$lib/form';
 
-	const year = new Date().getFullYear();
-
 	function ChangeMedia(this: HTMLLinkElement) {
 		this.media = 'all';
 	}
@@ -33,7 +31,7 @@
 </main>
 
 <footer class="select-none py-2 text-center text-xs text-slate-600 print:hidden">
-	&copy; {year} Jon Shipman /
+	&copy; Jon Shipman /
 	<a href="/resume">Resume</a>
 	/
 	<a href="mailto:jon@jonshipman.com">Email</a>

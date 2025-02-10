@@ -4,7 +4,7 @@
 	import { Button } from '$lib/form';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
-	import hosting from './hosting.png';
+	import hosting from './hosting.webp';
 
 	const experience = new Date().getFullYear() - 2007;
 
@@ -76,7 +76,7 @@
 	</Container>
 
 	<Container class="py-16 md:py-32">
-		<div class="grid grid-cols-1 gap-32 md:grid-cols-2 items-center">
+		<div class="grid grid-cols-1 items-center gap-32 md:grid-cols-2">
 			<div class="relative">
 				<div class="top-0 md:sticky md:-mt-8">
 					<div class="pt-8 text-4xl font-semibold">Hosting</div>
@@ -91,7 +91,9 @@
 				</div>
 			</div>
 
-			<div><img src={hosting} class="block rounded-xl" alt="Hosting" /></div>
+			<div>
+				<img src={hosting} class="block rounded-xl" alt="Hosting" width="512" height="512" />
+			</div>
 		</div>
 	</Container>
 </div>

@@ -4,5 +4,4 @@ export type Project = {
 	content: string;
 	image: string;
 	href: string;
-	isFeatured: boolean;
 };

@@ -47,9 +47,3 @@
 		</div>
 	{/if}
 </div>
-
-<style lang="postcss">
-	:global(.project-card img) {
-		@apply aspect-video rounded-lg object-cover;
-	}
-</style>

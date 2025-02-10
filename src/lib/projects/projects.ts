@@ -1,7 +1,7 @@
-import heartland from './heartland-company.webp?enhanced';
-import trussi from './trussi.webp?enhanced';
-import shamrockroofer from './shamrockroofer.webp?enhanced';
-import airportservice from './airport-service.webp?enhanced';
+import heartland from './heartland-company.webp?enhanced&w=360';
+import trussi from './trussi.webp?enhanced&w=360';
+import shamrockroofer from './shamrockroofer.webp?enhanced&w=360';
+import airportservice from './airport-service.webp?enhanced&w=360';
 import type { Project } from './types';
 
 export const Projects: Project[] = [

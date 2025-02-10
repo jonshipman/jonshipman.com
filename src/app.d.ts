@@ -1,5 +1,12 @@
 declare global {
-	namespace App {}
+	namespace App {
+		declare module '*?enhanced&w=360' {
+			import type { Picture } from 'vite-imagetools';
+
+			const value: Picture;
+			export default value;
+		}
+	}
 }
 
 export {};

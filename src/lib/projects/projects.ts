@@ -1,5 +1,6 @@
 import heartland from './heartland-company.webp';
 import trussi from './trussi.webp';
+import shamrockroofer from './shamrockroofer.webp';
 import airportservice from './airport-service.webp';
 import type { Project } from './types';
 
@@ -27,5 +28,12 @@ export const Projects: Project[] = [
 		content:
 			"Custom PHP solution built as a frontend and backend to manage sales and data. Included a custom JavaScript widget embed for the client's resellers.",
 		image: airportservice
+	},
+	{
+		title: 'Shamrock Roofing & Construction',
+		category: 'svelte',
+		href: 'https://shamrockroofer.com/',
+		content: 'Architected and implemented a Headless WordPress solution with a SvelteKit front-end, utilizing WordPress\'s embedded REST framework.',
+		image: shamrockroofer
 	}
 ];

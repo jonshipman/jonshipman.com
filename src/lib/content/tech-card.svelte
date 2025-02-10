@@ -8,28 +8,31 @@
 	type PropTypes = {
 		class?: string;
 		title: string;
-		color: keyof TailwindConfig['theme']['colors'];
 		icon?: Snippet;
 		children: Snippet;
 	};
 
-	let { class: className = '', color = 'green', title, icon, children }: PropTypes = $props();
+	let { class: className = '', title, icon, children }: PropTypes = $props();
 </script>
 
 <div
-	class="wrapper select-none rounded-2xl p-8 {className}"
-	style="--fill-color: {tailwind.theme.colors[color][800]}; background-color: {tailwind.theme
-		.colors[color][100]}"
+	class="tech-card group rounded-2xl bg-gray-100 transition-colors hover:bg-purple-900 hover:text-white {className}"
 >
-	<div class="flex items-start gap-4">
+	<div>
 		{#if icon}
-			{@render icon()}
+			<div class="-mt-4 px-8">
+				<div
+					class="inline-block rounded bg-purple-500 p-3 text-white transition-colors group-hover:bg-purple-100 group-hover:text-purple-900"
+				>
+					{@render icon()}
+				</div>
+			</div>
 		{/if}
 
-		<div class="text" style="color: {tailwind.theme.colors[color][900]};">
-			<div class="mb-4 text-xl font-semibold">{@html title}</div>
+		<div class="space-y-4 px-8 pb-8 pt-4">
+			<div class="text-xl font-semibold">{@html title}</div>
 
-			<div class="text-sm opacity-50">
+			<div class="text-xs">
 				{@render children()}
 			</div>
 		</div>
@@ -37,15 +40,7 @@
 </div>
 
 <style lang="postcss">
-	.text :global(p) {
-		@apply leading-relaxed;
-	}
-
-	.wrapper :global(svg) {
-		@apply w-60;
-	}
-
-	.wrapper :global(svg) {
-		fill: var(--fill-color);
+	:global(.tech-card svg) {
+		@apply h-8 w-8;
 	}
 </style>

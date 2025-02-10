@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Container } from '$lib';
-	import { Projects, Specialities } from '$lib/content';
+	import { HomeSection, Projects, Specialities } from '$lib/content';
 	import { Button } from '$lib/form';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
@@ -42,38 +42,17 @@
 		{/if}
 	</div>
 
-	<Container class="py-16 md:py-32">
-		<div class="grid grid-cols-1 gap-32 md:grid-cols-2">
-			<div class="relative">
-				<div class="top-0 md:sticky md:-mt-8">
-					<div class="pt-8 text-4xl font-semibold">Expertise &amp; Specialties</div>
+	<HomeSection
+		title="Expertise & Specialties"
+		subtitle="Custom Designs, Custom Code"
+		description="From front-end development using cutting-edge technologies to back-end solutions ensuring seamless functionality, I am dedicated to delivering high-quality, performance-driven websites."
+	>
+		<Specialities />
+	</HomeSection>
 
-					<p class="leading-realxed my-8">
-						As a seasoned web developer, I bring a wealth of experience and a passion for crafting
-						robust, user-friendly digital experiences. My expertise lies in translating innovative
-						ideas into functional, visually appealing websites. From front-end development using
-						cutting-edge technologies to back-end solutions ensuring seamless functionality, I am
-						dedicated to delivering high-quality, performance-driven websites.
-					</p>
-
-					<Button href="/resume">More Details</Button>
-				</div>
-			</div>
-
-			<div>
-				<Specialities />
-			</div>
-		</div>
-	</Container>
-
-	<Container class="py-16 md:py-32">
-		<header class="mb-8 flex items-center">
-			<div class="pt-8 text-4xl font-semibold">Web Wonders</div>
-			<Button class="ml-auto" href="/projects">Projects</Button>
-		</header>
-
-		<Projects isFeatured />
-	</Container>
+	<HomeSection title="Portfolio" subtitle="Samples of my Work">
+		<Projects />
+	</HomeSection>
 
 	<Container class="py-16 md:py-32">
 		<div class="grid grid-cols-1 items-center gap-32 md:grid-cols-2">

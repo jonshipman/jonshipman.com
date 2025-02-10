@@ -5,7 +5,7 @@ import { mdsvex } from 'mdsvex';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	preprocess: [
-		vitePreprocess(),
+		vitePreprocess({ postcss: true }),
 		mdsvex({
 			extensions: ['.md']
 		})

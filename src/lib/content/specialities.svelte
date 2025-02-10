@@ -38,8 +38,8 @@
 </script>
 
 <div class={className}>
-	<div class="flex flex-col gap-8">
-		<TechCard title="JavaScript" color="green">
+	<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+		<TechCard title="JavaScript">
 			{#snippet icon()}
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
 					<path
@@ -55,7 +55,7 @@
 			</p>
 		</TechCard>
 
-		<TechCard title="HTML" color="purple">
+		<TechCard title="HTML">
 			{#snippet icon()}
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 					<path
@@ -70,7 +70,7 @@
 			</p>
 		</TechCard>
 
-		<TechCard title="CSS" color="blue">
+		<TechCard title="CSS">
 			{#snippet icon()}
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 					<path
@@ -86,7 +86,7 @@
 			</p>
 		</TechCard>
 
-		<TechCard title="PHP" color="indigo">
+		<TechCard title="PHP">
 			{#snippet icon()}
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 					<path
@@ -101,7 +101,7 @@
 			</p>
 		</TechCard>
 
-		<TechCard title="WordPress" color="yellow">
+		<TechCard title="WordPress">
 			{#snippet icon()}
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
 					<path
@@ -117,7 +117,7 @@
 			</p>
 		</TechCard>
 
-		<TechCard title="&hellip;and much more!" color="orange">
+		<TechCard title="&hellip;and much more!">
 			<div class="flex flex-wrap gap-2 text-xs">
 				{#each options as opt}
 					<div>{opt}</div>

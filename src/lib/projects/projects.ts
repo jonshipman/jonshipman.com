@@ -33,7 +33,8 @@ export const Projects: Project[] = [
 		title: 'Shamrock Roofing & Construction',
 		category: 'svelte',
 		href: 'https://shamrockroofer.com/',
-		content: 'Architected and implemented a Headless WordPress solution with a SvelteKit front-end, utilizing WordPress\'s embedded REST framework.',
+		content:
+			"Architected and implemented a Headless WordPress solution with a SvelteKit front-end, utilizing WordPress's embedded REST framework.",
 		image: shamrockroofer
 	}
 ];

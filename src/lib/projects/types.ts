@@ -3,5 +3,5 @@ export type Project = {
 	category: string;
 	content: string;
 	image: string;
-	href: string;
+	href?: string;
 };

@@ -13,14 +13,17 @@
 			class="hover:text-purple"
 		>
 			<LinkedIn width="30" height="30" />
+			<div class="sr-only">LinkedIn</div>
 		</a>
 
 		<a href="https://github.com/jonshipman" target="_new" rel="nofollow" class="hover:text-purple">
 			<Github width="25" height="25" />
+			<div class="sr-only">GitHub</div>
 		</a>
 
 		<a href="/resume" class="hover:text-purple" aria-label="Resume" title="Resume">
 			<Resume width="30" height="30" />
+			<div class="sr-only">Resume</div>
 		</a>
 	</div>
 </div>

@@ -6,12 +6,14 @@
 		title,
 		description,
 		subtitle,
+		id,
 		children
-	}: { title?: string; description?: string; subtitle?: string; children?: Snippet } = $props();
+	}: { id?: string; title?: string; description?: string; subtitle?: string; children?: Snippet } =
+		$props();
 </script>
 
 <Container class="py-16 md:py-32">
-	<div class="flex flex-col gap-8">
+	<div class="flex flex-col gap-8" {id}>
 		<header class="mb-8 flex items-center">
 			<div class="text-balance uppercase md:w-2/3">
 				{#if title}

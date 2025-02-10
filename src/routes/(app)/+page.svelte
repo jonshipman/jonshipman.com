@@ -37,7 +37,7 @@
 
 		{#if mounted}
 			<div transition:fade={{ delay: 400 }} class="text-center">
-				<Button class="text-lg" href="/projects">Projects 👷</Button>
+				<Button class="text-lg" href="#projects">Projects 👷</Button>
 			</div>
 		{/if}
 	</div>
@@ -50,7 +50,7 @@
 		<Specialities />
 	</HomeSection>
 
-	<HomeSection title="Portfolio" subtitle="Samples of my Work">
+	<HomeSection title="Portfolio" subtitle="Samples of my Work" id="projects">
 		<Projects />
 	</HomeSection>
 

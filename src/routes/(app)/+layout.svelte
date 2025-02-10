@@ -4,6 +4,10 @@
 	import { Button } from '$lib/form';
 
 	const year = new Date().getFullYear();
+
+	function ChangeMedia(this: HTMLLinkElement) {
+		this.media = 'all';
+	}
 </script>
 
 <div class="flex min-h-screen w-full flex-col">
@@ -40,10 +44,18 @@
 </div>
 
 <svelte:head>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" media="print" onload={ChangeMedia} />
+	<link
+		rel="preconnect"
+		href="https://fonts.gstatic.com"
+		crossorigin="anonymous"
+		media="print"
+		onload={ChangeMedia}
+	/>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@100..900&display=swap"
 		rel="stylesheet"
+		media="print"
+		onload={ChangeMedia}
 	/>
 </svelte:head>

@@ -5,5 +5,6 @@ export type Project = {
 	category: string;
 	content: string;
 	image: Picture;
+	fullImages: Array<Picture | string>;
 	href?: string;
 };

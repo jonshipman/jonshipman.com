@@ -14,7 +14,7 @@ Typescript, JavaScript, jQuery, HTML, CSS, SCSS, Sass, Less, React, Angular, Vue
 
 **Software**
 
-GitHub Actions, Docker, Storybook, Postman, Google Tag Manager, Stripe, Adobe CS, Clip Studio Paint, Figma, Auth.net, Lighthouse PageSpeed, Google Cloud Console, AWS, Android Studio, Hyper-V
+GitHub Actions, Docker, Storybook, Postman, Google Tag Manager, Stripe, Adobe CS, Clip Studio Paint, Figma, Auth.net, Lighthouse PageSpeed, Google Cloud Console, AWS, AWS Connect, Android Studio, Hyper-V
 
 **Areas of Expertise**
 

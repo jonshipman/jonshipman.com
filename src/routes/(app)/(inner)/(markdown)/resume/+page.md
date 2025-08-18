@@ -10,7 +10,7 @@ With 18 years of professional experience in the industry, I excel in multidiscip
 
 **Technical**
 
-Typescript, JavaScript, jQuery, HTML, CSS, SCSS, Sass, Less, React, Angular, Vue, Next.js, Svelte, Laravel, Tailwind, Webpack, playwright, Jest, gulp, Bootstrap, MUI, Theme UI, Material Design, MySQL, MongoDB, Salesforce Lightning Design System, Lighting Web Components WordPress (coding), Drupal (coding), Magento (coding), XAML (WPF), Markdown
+Typescript, JavaScript, jQuery, HTML, CSS, SCSS, Sass, Less, React, Angular, Vue, Next.js, Svelte, Laravel, Tailwind, Webpack, playwright, Jest, gulp, Bootstrap, MUI, Theme UI, Material Design, MySQL, MongoDB, Salesforce Lightning Design System, Lighting Web Components, WordPress (coding), Drupal (coding), Magento (coding), XAML (WPF), Markdown
 
 **Software**
 

@@ -38,7 +38,7 @@
 		<Field name="discount" label="Discount %" type="number" bind:value={discount} />
 
 		<div>
-			<div class="block text-sm font-medium leading-6 text-gray-900 dark:text-gray-100">&nbsp;</div>
+			<div class="block text-sm font-medium leading-6 text-gray-900">&nbsp;</div>
 			<div>{total}</div>
 		</div>
 	</div>

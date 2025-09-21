@@ -34,7 +34,7 @@
 
 <div class={className}>
 	{#if label}
-		<label for={id} class="block text-sm font-medium leading-6 text-gray-900 dark:text-gray-100">
+		<label for={id} class="block text-sm font-medium leading-6 text-gray-900">
 			{label}
 		</label>
 	{/if}

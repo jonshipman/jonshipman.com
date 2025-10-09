@@ -1,0 +1,31 @@
+name: deploy ⬆️
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+
+  build:
+    name: Build ⚒️
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@v1.0.0
+      with:
+        host: jonshipman.com
+        username: jon
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        script: |
+          cd ~/Docker/jonshipman.com
+          docker compose down
+          cd repo
+          git stash -u
+          git pull
+          export NVM_DIR=~/.nvm
+          source ~/.nvm/nvm.sh
+          npm ci
+          ADDRESS_HEADER=True-Client-IP npm run build
+          cd ..
+          docker compose up -d

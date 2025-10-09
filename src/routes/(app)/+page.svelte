@@ -83,25 +83,27 @@
 </svelte:head>
 
 <style lang="postcss">
+	@reference "tailwindcss";
+
 	.welcome {
 		background: linear-gradient(
 			-45deg,
-			theme('colors.yellow.500'),
-			theme('colors.green.500'),
-			theme('colors.blue.500'),
-			theme('colors.purple.500'),
-			theme('colors.red.500')
+			var(--color-yellow-500),
+			var(--color-green-500),
+			var(--color-blue-500),
+			var(--color-purple-500),
+			var(--color-red-500)
 		);
 	}
 
 	.welcome-text {
 		background-image: linear-gradient(
 			-45deg,
-			theme('colors.yellow.800'),
-			theme('colors.green.800'),
-			theme('colors.blue.800'),
-			theme('colors.purple.800'),
-			theme('colors.red.800')
+			var(--color-yellow-800),
+			var(--color-green-800),
+			var(--color-blue-800),
+			var(--color-purple-800),
+			var(--color-red-800)
 		);
 	}
 

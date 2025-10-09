@@ -12,5 +12,6 @@
 			}
 		}
 	],
-	"htmlWhitespaceSensitivity": "ignore"
+	"htmlWhitespaceSensitivity": "ignore",
+	"tailwindStylesheet": "./src/app.css"
 }

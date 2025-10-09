@@ -47,11 +47,13 @@
 </div>
 
 <style lang="postcss">
+	@reference "tailwindcss";
+
 	.strong {
-		background-color: var(--color, theme('colors.purple.800'));
+		background-color: var(--color, var(--color-purple-800));
 	}
 
 	.strong:hover {
-		background-color: var(--color-hover, theme('colors.purple.500'));
+		background-color: var(--color-hover, var(--color-purple-500));
 	}
 </style>

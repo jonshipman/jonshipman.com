@@ -36,6 +36,8 @@
 </div>
 
 <style lang="postcss">
+	@reference "tailwindcss";
+
 	:global(.tech-card svg) {
 		@apply h-8 w-8;
 	}

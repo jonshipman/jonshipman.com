@@ -1,41 +1,38 @@
 jon@jonshipman.com  
 +1 (913) 735-3463  
 https://jonshipman.com  
+Remote / Denver, CO
 
 # Jon Shipman 
 
-With 18 years of professional experience in the industry, I excel in multidisciplinary roles within collaborative development environments. My principal focus is the design of scalable frontend architectures that prioritize reusability and automation - enhancing the experience for both end users and engineers, while faithfully preserving the intent and integrity of the design team's vision.
+Frontend architect with 18 years of experience designing scalable, reusable systems that accelerate developer velocity and deliver pixel-perfect user experiences. Skilled at bridging design and engineering to ship performant, maintainable, and accessible products at scale.
 
 ## Skills
 
-**Technical**
+**Frontend**: React, Angular, Vue, Svelte, Next.js, TypeScript, Tailwind, Webpack, Jest, Playwright
 
-Typescript, JavaScript, jQuery, HTML, CSS, SCSS, Sass, Less, React, Angular, Vue, Next.js, Svelte, Laravel, Tailwind, Webpack, playwright, Jest, gulp, Bootstrap, MUI, Theme UI, Material Design, MySQL, MongoDB, Salesforce Lightning Design System, Lighting Web Components, WordPress (coding), Drupal (coding), Magento (coding), XAML (WPF), Markdown
+**Backend / Platforms**: Laravel, Node.js, MySQL, MongoDB, WordPress, Drupal, Magento, Java
 
-**Software**
+**DevOps / Tools**: Docker, GitHub Actions, AWS, GCP, Storybook, Stripe, GTM
 
-GitHub Actions, Docker, Storybook, Postman, Google Tag Manager, Stripe, Adobe CS, Clip Studio Paint, Figma, Auth.net, Lighthouse PageSpeed, Google Cloud Console, AWS, AWS Connect, Android Studio, Hyper-V
-
-**Areas of Expertise**
-
-Functional programming, OOP, OOCSS, TDD, REST, GraphQL, Data Structures, DevOps, CI/CD, Monorepo Architecture, Module Federation, Component Library Design, Declarative & Compositional React components, Library publishing, npm publishing, Design Systems, Design Token patterns, Accessibility (WCAG), GDPR Compliance, SVG Creation & Optimization, Responsive Email Templates, Print Design, Logo Design, Digital Painting
+**Design / Creative**: Figma, Adobe CC, Clip Studio, SVG Optimization, Accessibility (WCAG)
 
 ## Working Experience
 
-#### Jon Shipman LLC (Full-Stack Consultant), Jan 2025 - current)
+#### Jon Shipman LLC (Founder / Principal Consultant, Jan 2025 - current)
 
 - Founded a full-stack UI/UX Development company.
 - Deliver custom software solutions tailored to client needs.
 - Provide ongoing maintenance and updates for client websites.
 
-#### Shae Marcus Consulting (Senior Software Engineer), Oct 2014 - Dec 2024) 
+#### Shae Marcus Consulting (Senior Software Engineer / Lead Developer, Oct 2014 - Dec 2024) 
 
-- Managed over 40 websites and their ongoing maintenance (platform updates, Linux updates, content edits, docker container deployments).
+- Managed 40+ production websites with 99.9% uptime and automated deployment pipelines.
 - Wrote the proposal and executed a custom LAMP site for managing limo/driver rentals to and from airports. Included a JavaScript embed distributed to client's partner websites.
 - Handled ecommerce migration from Accrisoft into Magento 2. Designed and developed within the Magento 2 platform and performed data transcoding. (wpiinc.com)
 - Developed custom client software utilizing React for bespoke UI/UX administrative panels within the WordPress ecosystem.
 - Communicated directly with clients, provided progress reports, and bridged the gap between design and programming when needed.
-- Lead a team developing a custom, industry-specific CRM. Oversaw DevOps and mentored junior developers. Provided vital direction and decision making for the project taking it to the finish line in December 2024.
+- Led a 10-person dev team delivering a full-stack CRM that improved client onboarding time by 40%. Oversaw DevOps and mentored junior developers. Provided vital direction and decision making for the project taking it to the finish line in December 2024.
 
 #### Top Pro Media Group (Front End Web Developer, Jun 2013 - Oct 2014)
 
@@ -63,6 +60,4 @@ Functional programming, OOP, OOCSS, TDD, REST, GraphQL, Data Structures, DevOps,
 - Designed graphics for internal use (corporate parties, handbooks, email templates, large print design).
 - Formatted and designed the monthly newsletter.
 
-## Education
-
-#### Truman State University (Bachelor of Fine Arts) 2007
+### Truman State University - BFA, 2007

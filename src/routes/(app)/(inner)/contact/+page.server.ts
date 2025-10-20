@@ -1,4 +1,4 @@
-import { EMAIL_PASS, EMAIL_USER } from '$env/static/private';
+import { EMAIL_PASS_B, EMAIL_USER_B } from '$env/static/private';
 import { fail } from '@sveltejs/kit';
 import nodemailer from 'nodemailer';
 
@@ -22,29 +22,29 @@ export const actions = {
 		if (honeypot) return { success: 'successful post action' }; // Mask actual errors.
 
 		const message = data.get('message') + `\n\nIP: ${ip}`;
-		const subject = data.get('subject');
+		const subject = data.get('subject') || '';
 
 		const transporter = nodemailer.createTransport({
-			host: 'smtp.mailgun.org',
-			port: 587,
-			secure: false,
+			host: 'mail.smtp2go.com',
+			port: 2525,
 			auth: {
-				user: EMAIL_USER,
-				pass: EMAIL_PASS
+				user: EMAIL_USER_B,
+				pass: EMAIL_PASS_B
 			}
 		});
 
 		try {
 			await transporter.sendMail({
-				from: EMAIL_USER,
+				from: 'website@jonshipman.com',
 				replyTo: email + '',
 				to: 'jon@jonshipman.com',
 				subject: 'JonShipman.com: ' + subject,
 				text: message,
 				html: '<p>' + message.split('\n').join('<br/>') + '</p>'
 			});
-		} catch {
-			return fail(400, { error: 'Transport failed. Just email me @ jon@jonshipman.com, ok?' });
+		} catch (e: unknown) {
+			console.log(e);
+			return fail(400, { error: 'Transport failed. Just email me at jon@jonshipman.com, ok?' });
 		}
 
 		limit.set(ip, email + '');

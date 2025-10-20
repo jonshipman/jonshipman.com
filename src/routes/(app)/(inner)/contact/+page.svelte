@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Form } from '$lib/form';
+	import { resume } from '$lib/resume';
 	import { onMount } from 'svelte';
-	import { fade } from 'svelte/transition';
 
 	let mounted = $state(false);
 
@@ -10,16 +10,11 @@
 	});
 </script>
 
-<div class="grid grid-cols-1 gap-32 pt-16 md:grid-cols-2 md:pt-32">
-	<div class="border-r border-green pr-8">
-		{#if mounted}
-			<div class="text-4xl font-semibold" in:fade>Hey. What's Up?</div>
-		{/if}
-	</div>
+<div>
 	<Form />
 </div>
 
 <svelte:head>
-	<title>Contact | JonShipman.com</title>
+	<title>Contact | {resume.shortdesc}</title>
 	<meta name="description" content="I can write forms too." />
 </svelte:head>

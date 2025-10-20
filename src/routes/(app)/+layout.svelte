@@ -1,43 +1,51 @@
 <script lang="ts">
-	import { Container } from '$lib';
-	import { Links } from '$lib/content';
-	import { Button } from '$lib/form';
+	import { page } from '$app/state';
+	import contactLight from './contact-light.gif';
+	import contactDark from './contact-dark.gif';
+
+	let { children } = $props();
+
+	function headerPosition(homeState: boolean | undefined) {
+		return homeState ? 'absolute' : 'relative';
+	}
+
+	function pageName(pathname: string, check: string, className: string) {
+		return pathname.includes(check) ? className : '';
+	}
 
 	function ChangeMedia(this: HTMLLinkElement) {
 		this.media = 'all';
 	}
 </script>
 
-<header class="select-none py-6 pt-0 md:pt-6 print:hidden">
-	<Container>
-		<div class="mb-8 block text-center text-3xl font-bold md:hidden">
-			<a class="-mx-8 block bg-indigo-50 py-4 text-indigo-900" href="tel:19137353463">
-				(913) 735-3463
-			</a>
+<div class="relative flex min-h-screen flex-col gap-8 bg-white dark:bg-gray-900 dark:text-white">
+	<header class="{headerPosition(page.data.isHome)} z-10 w-full print:hidden">
+		<div class="flex w-full">
+			<div class="w-full p-6 select-none">
+				<a href="/" class="block font-display text-3xl">Jon Shipman</a>
+			</div>
+			<div class="-mt-3">
+				<a href="/contact" class={pageName(page.url.pathname, 'contact', 'hidden')}>
+					<img class="block h-24 w-24 object-contain dark:hidden" src={contactLight} alt="✉️" />
+					<img class="hidden h-24 w-24 object-contain dark:block" src={contactDark} alt="✉️" />
+				</a>
+			</div>
 		</div>
-		<Links class="my-8 flex justify-center md:hidden" />
+	</header>
 
-		<div class="flex items-center gap-4">
-			<div class="text-3xl font-bold"><a href="/">Jon Shipman</a></div>
-			<div class="grow"></div>
-			<Links class="hidden md:block" />
-			<Button href="/contact">Contact Me</Button>
-		</div>
-	</Container>
-</header>
+	<main class="grow">
+		{@render children()}
+	</main>
 
-<main class="grow">
-	<slot />
-</main>
-
-<footer class="select-none py-2 text-center text-xs text-slate-600 print:hidden">
-	&copy; Jon Shipman /
-	<a href="/resume">Resume</a>
-	/
-	<a href="mailto:jon@jonshipman.com">Email</a>
-	/
-	<a href="tel:+19137353463">Call</a>
-</footer>
+	<footer class="py-2 text-center text-xs text-slate-600 dark:text-slate-400 select-none print:hidden">
+		&copy; Jon Shipman /
+		<a href="/resume">Resume</a>
+		/
+		<a href="/contact">Email</a>
+		/
+		<a href="tel:+19137353463">Call</a>
+	</footer>
+</div>
 
 <svelte:head>
 	<link rel="preconnect" href="https://fonts.googleapis.com" media="print" onload={ChangeMedia} />
@@ -49,7 +57,7 @@
 		onload={ChangeMedia}
 	/>
 	<link
-		href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@100..900&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Lobster&family=Inter:wght@100..900&display=swap"
 		rel="stylesheet"
 		media="print"
 		onload={ChangeMedia}

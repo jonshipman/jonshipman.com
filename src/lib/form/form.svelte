@@ -3,7 +3,6 @@
 	import { page } from '$app/state';
 	import type { SubmitFunction } from '@sveltejs/kit';
 	import { onMount, type Snippet } from 'svelte';
-	import { fade } from 'svelte/transition';
 	import Button from './button.svelte';
 	import Field from './field.svelte';
 
@@ -12,7 +11,6 @@
 	let { action, class: className = '', children }: PropTypes = $props();
 
 	let honeypot = $state('text');
-	let btnVisible = $state(false);
 	let error = $state('');
 	let success = $state('');
 
@@ -24,23 +22,6 @@
 	function handleCloseError(event: Event) {
 		event.preventDefault();
 		error = '';
-	}
-
-	function triggerBtnFx(node: HTMLDivElement) {
-		const observer = new IntersectionObserver(
-			function (entries) {
-				entries.forEach((entry) => {
-					btnVisible = entry.isIntersecting;
-				});
-			},
-			{
-				root: null,
-				rootMargin: '0px',
-				threshold: 0.75
-			}
-		);
-
-		observer.observe(node);
 	}
 
 	const handleSubmit: SubmitFunction = function () {
@@ -58,15 +39,15 @@
 
 <form {action} method="POST" class={className} use:enhance={handleSubmit}>
 	{#if error || success}
-		<div transition:fade class="relative flex items-center justify-center text-center">
-			<div class="absolute bottom-16 z-10 mx-auto w-full max-w-5xl">
+		<div class="relative flex items-center justify-center text-center mb-6">
+			<div class="mx-auto w-full max-w-5xl">
 				{#if error}
 					<div
 						class="mb-4 rounded border border-red-400 bg-red-100 px-4 py-3 text-red-700 last:mb-0"
 						role="alert"
 					>
 						{@html error}
-						<span class="absolute bottom-0 right-0 top-0 px-4 py-3">
+						<span class="absolute top-0 right-0 bottom-0 px-4 py-3">
 							<svg
 								onclick={handleCloseError}
 								onkeydown={handleCloseError}
@@ -122,12 +103,8 @@
 			/>
 		</div>
 
-		<div class="flex justify-end" use:triggerBtnFx>
-			{#if btnVisible}
-				<div transition:fade={{ delay: 1000 }}>
-					<Button>Send me a 📨</Button>
-				</div>
-			{/if}
+		<div class="flex justify-end">
+			<Button>Send me a 📨</Button>
 		</div>
 	{/if}
 </form>

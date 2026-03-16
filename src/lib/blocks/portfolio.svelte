@@ -8,6 +8,7 @@
 	import yukikoThumb from '$lib/portfolio/2025-12-07-1932-thumb.jpg';
 	import frierenThumb from '$lib/portfolio/2026-02-11-1938-thumb.jpg';
 	import port1Thumb from '$lib/portfolio/2026-03-03-1620-thumb.jpg';
+	import port2Thumb from '$lib/portfolio/2025-07-10-0941-thumb.jpg';
 
 	import dogFull from '$lib/portfolio/2025-12-12-0804-full.jpg';
 	import comicFull from '$lib/portfolio/2026-02-21-1816-full.jpg';
@@ -18,6 +19,7 @@
 	import yukikoFull from '$lib/portfolio/2025-12-07-1932-full.jpg';
 	import frierenFull from '$lib/portfolio/2026-02-11-1938-full.jpg';
 	import port1Full from '$lib/portfolio/2026-03-03-1620-full.jpg';
+	import port2Full from '$lib/portfolio/2025-07-10-0941-full.jpg';
 
 	import Masonry from 'svelte-bricks';
 	import PortfolioItem from './portfolio-item.svelte';
@@ -30,15 +32,16 @@
 	{maxColWidth}
 	{gap}
 	items={[
-		{ id: 1, src: beeThumb, full: beeFull },
-		{ id: 2, src: kpopThumb, full: kpopFull },
-		{ id: 3, src: dogThumb, full: dogFull },
-		{ id: 4, src: princessThumb, full: princessFull },
-		{ id: 5, src: tobyThumb, full: tobyFull },
-		{ id: 6, src: comicThumb, full: comicFull },
-		{ id: 7, src: yukikoThumb, full: yukikoFull },
-		{ id: 8, src: frierenThumb, full: frierenFull },
-		{ id: 9, src: port1Thumb, full: port1Full }
+		{ id: 1, src: port2Thumb, full: port2Full },
+		{ id: 2, src: beeThumb, full: beeFull },
+		{ id: 3, src: kpopThumb, full: kpopFull },
+		{ id: 4, src: dogThumb, full: dogFull },
+		{ id: 5, src: princessThumb, full: princessFull },
+		{ id: 6, src: tobyThumb, full: tobyFull },
+		{ id: 7, src: comicThumb, full: comicFull },
+		{ id: 8, src: yukikoThumb, full: yukikoFull },
+		{ id: 9, src: frierenThumb, full: frierenFull },
+		{ id: 10, src: port1Thumb, full: port1Full }
 	]}
 >
 	{#snippet children({ item: { src, full } })}

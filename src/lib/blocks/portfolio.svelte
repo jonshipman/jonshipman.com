@@ -9,6 +9,7 @@
 	import frierenThumb from '$lib/portfolio/2026-02-11-1938-thumb.jpg';
 	import port1Thumb from '$lib/portfolio/2026-03-03-1620-thumb.jpg';
 	import port2Thumb from '$lib/portfolio/2025-07-10-0941-thumb.jpg';
+	import hondaThumb from '$lib/portfolio/honda-thumb.jpg';
 
 	import dogFull from '$lib/portfolio/2025-12-12-0804-full.jpg';
 	import comicFull from '$lib/portfolio/2026-02-21-1816-full.jpg';
@@ -20,6 +21,7 @@
 	import frierenFull from '$lib/portfolio/2026-02-11-1938-full.jpg';
 	import port1Full from '$lib/portfolio/2026-03-03-1620-full.jpg';
 	import port2Full from '$lib/portfolio/2025-07-10-0941-full.jpg';
+	import hondaFull from '$lib/portfolio/honda-full.jpg';
 
 	import Masonry from 'svelte-bricks';
 	import PortfolioItem from './portfolio-item.svelte';
@@ -41,7 +43,8 @@
 		{ id: 7, src: comicThumb, full: comicFull },
 		{ id: 8, src: yukikoThumb, full: yukikoFull },
 		{ id: 9, src: frierenThumb, full: frierenFull },
-		{ id: 10, src: port1Thumb, full: port1Full }
+		{ id: 10, src: port1Thumb, full: port1Full },
+		{ id: 11, src: hondaThumb, full: hondaFull }
 	]}
 >
 	{#snippet children({ item: { src, full } })}

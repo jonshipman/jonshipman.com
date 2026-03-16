@@ -8,8 +8,7 @@ const config = {
 			assets: 'build',
 			fallback: undefined,
 			precompress: false,
-			strict: true,
-			trailingSlash: 'always'
+			strict: true
 		})
 	},
 	vitePlugin: {

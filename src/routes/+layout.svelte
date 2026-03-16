@@ -8,7 +8,14 @@
 	let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href="/favicon.ico" /></svelte:head>
+<svelte:head>
+	<title>Jon Shipman • Design & Illustration</title>
+	<meta
+		name="description"
+		content="Design-driven studio delivering brand, graphic, and digital design solutions for clients across healthcare, education, ecommerce, and SaaS."
+	/>
+	<link rel="icon" href="/favicon.ico" />
+</svelte:head>
 
 <div class="site-container" style="--bg-url: url('{bg}')">
 	<div class=" relative mx-auto flex min-h-screen w-full max-w-7xl flex-col gap-16 p-8">

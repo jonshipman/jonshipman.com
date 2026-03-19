@@ -10,6 +10,10 @@
 	import port1Thumb from '$lib/portfolio/2026-03-03-1620-thumb.jpg';
 	import port2Thumb from '$lib/portfolio/2025-07-10-0941-thumb.jpg';
 	import hondaThumb from '$lib/portfolio/honda-thumb.jpg';
+	import minorDetailThumb from '$lib/portfolio/minor-detail-thumb.jpg';
+	import aigaThumb from '$lib/portfolio/aiga-banner-thumb.jpg';
+	import edgeWeekThumb from '$lib/portfolio/edge-week-thumb.jpg';
+	import amRoyThumb from '$lib/portfolio/am-royal-08-thumb.jpg';
 
 	import dogFull from '$lib/portfolio/2025-12-12-0804-full.jpg';
 	import comicFull from '$lib/portfolio/2026-02-21-1816-full.jpg';
@@ -22,6 +26,10 @@
 	import port1Full from '$lib/portfolio/2026-03-03-1620-full.jpg';
 	import port2Full from '$lib/portfolio/2025-07-10-0941-full.jpg';
 	import hondaFull from '$lib/portfolio/honda-full.jpg';
+	import minorDetailFull from '$lib/portfolio/minor-detail-full.jpg';
+	import aigaFull from '$lib/portfolio/aiga-banner-full.jpg';
+	import edgeWeekFull from '$lib/portfolio/edge-week-full.jpg';
+	import amRoyFull from '$lib/portfolio/am-royal-08-full.jpg';
 
 	import Masonry from 'svelte-bricks';
 	import PortfolioItem from './portfolio-item.svelte';
@@ -32,12 +40,16 @@
 		[port2Thumb, port2Full],
 		[beeThumb, beeFull],
 		[kpopThumb, kpopFull],
+		[amRoyThumb, amRoyFull],
 		[dogThumb, dogFull],
 		[princessThumb, princessFull],
+		[aigaThumb, aigaFull],
 		[tobyThumb, tobyFull],
+		[minorDetailThumb, minorDetailFull],
 		[comicThumb, comicFull],
 		[yukikoThumb, yukikoFull],
 		[frierenThumb, frierenFull],
+		[edgeWeekThumb, edgeWeekFull],
 		[port1Thumb, port1Full],
 		[hondaThumb, hondaFull]
 	];

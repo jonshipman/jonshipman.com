@@ -27,26 +27,30 @@
 	import PortfolioItem from './portfolio-item.svelte';
 
 	const [minColWidth, maxColWidth, gap] = [200, 800, 20];
+
+	const images = [
+		[port2Thumb, port2Full],
+		[beeThumb, beeFull],
+		[kpopThumb, kpopFull],
+		[dogThumb, dogFull],
+		[princessThumb, princessFull],
+		[tobyThumb, tobyFull],
+		[comicThumb, comicFull],
+		[yukikoThumb, yukikoFull],
+		[frierenThumb, frierenFull],
+		[port1Thumb, port1Full],
+		[hondaThumb, hondaFull]
+	];
+
+	const items: { id: number; src: string; full: string }[] = [];
+
+	for (let index = 0; index < images.length; index++) {
+		const element = images[index];
+		items.push({ id: index + 1, src: element[0], full: element[1] });
+	}
 </script>
 
-<Masonry
-	{minColWidth}
-	{maxColWidth}
-	{gap}
-	items={[
-		{ id: 1, src: port2Thumb, full: port2Full },
-		{ id: 2, src: beeThumb, full: beeFull },
-		{ id: 3, src: kpopThumb, full: kpopFull },
-		{ id: 4, src: dogThumb, full: dogFull },
-		{ id: 5, src: princessThumb, full: princessFull },
-		{ id: 6, src: tobyThumb, full: tobyFull },
-		{ id: 7, src: comicThumb, full: comicFull },
-		{ id: 8, src: yukikoThumb, full: yukikoFull },
-		{ id: 9, src: frierenThumb, full: frierenFull },
-		{ id: 10, src: port1Thumb, full: port1Full },
-		{ id: 11, src: hondaThumb, full: hondaFull }
-	]}
->
+<Masonry {minColWidth} {maxColWidth} {gap} {items}>
 	{#snippet children({ item: { src, full } })}
 		<PortfolioItem {src} {full} />
 	{/snippet}

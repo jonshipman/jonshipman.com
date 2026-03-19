@@ -1,7 +1,9 @@
 <script lang="ts">
+	import type { Picture } from "@sveltejs/enhanced-img";
+
 	type PropTypes = {
 		href: string;
-		src: string;
+		src: string | Picture;
 		height?: string;
 	};
 
@@ -9,7 +11,12 @@
 </script>
 
 <div>
-	<a {href} rel="external nofollow noopen" target="_social">
-		<img {src} alt={href} class="block max-w-none select-none" style="height: {height}rem" />
+	<a {href} rel="external nofollow noopen" target="_social" title={href}>
+		<enhanced:img
+			{src}
+			alt={href}
+			class="block w-auto select-none"
+			style="height: {height}rem"
+		/>
 	</a>
 </div>

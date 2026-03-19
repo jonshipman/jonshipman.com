@@ -1,9 +1,9 @@
 <script lang="ts">
-	import linkedin from '$lib/assets/linkedin.png';
-	import github from '$lib/assets/github.png';
-	import behance from '$lib/assets/behance.png';
-	import artstation from '$lib/assets/artstation.png';
-	import bluesky from '$lib/assets/bluesky.png';
+	import linkedin from '$lib/assets/linkedin.png?enhanced';
+	import github from '$lib/assets/github.png?enhanced';
+	import behance from '$lib/assets/behance.png?enhanced';
+	import artstation from '$lib/assets/artstation.png?enhanced';
+	import bluesky from '$lib/assets/bluesky.png?enhanced';
 	import SocialLink from './social-link.svelte';
 
 	type PropTypes = {

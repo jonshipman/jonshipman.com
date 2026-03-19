@@ -9,3 +9,7 @@ html {
 svg {
 	fill: currentColor;
 }
+
+picture {
+	display: contents;
+}

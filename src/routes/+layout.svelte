@@ -10,10 +10,6 @@
 
 <svelte:head>
 	<title>Jon Shipman • Design & Illustration</title>
-	<meta
-		name="description"
-		content="Design-driven studio delivering brand, graphic, and digital design solutions for clients across healthcare, education, ecommerce, and SaaS."
-	/>
 	<link rel="icon" href="/favicon.ico" />
 </svelte:head>
 

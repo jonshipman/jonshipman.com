@@ -33,12 +33,28 @@
 	import edgeWeekFull from '$lib/portfolio/edge-week-full.jpg?enhanced';
 	import amRoyFull from '$lib/portfolio/am-royal-08-full.jpg?enhanced';
 
+	import hazelFull from '$lib/portfolio/2026-03-28-1322-full.jpg?enhanced';
+	import hazelThumb from '$lib/portfolio/2026-03-28-1322-thumb.jpg?enhanced';
+	import qBeeFull from '$lib/portfolio/2026-04-04-2125-full.jpg?enhanced';
+	import qBeeThumb from '$lib/portfolio/2026-04-04-2125-thumb.jpg?enhanced';
+	import tigerFull from '$lib/portfolio/2026-04-11-1602-full.jpg?enhanced';
+	import tigerThumb from '$lib/portfolio/2026-04-11-1602-thumb.jpg?enhanced';
+	import throatFull from '$lib/portfolio/2026-04-13-1106-full.jpg?enhanced';
+	import throatThumb from '$lib/portfolio/2026-04-13-1106-thumb.jpg?enhanced';
+	import phoneFull from '$lib/portfolio/2026-04-14-0935-full.jpg?enhanced';
+	import phoneThumb from '$lib/portfolio/2026-04-14-0935-thumb.jpg?enhanced';
+
 	import Masonry from 'svelte-bricks';
 	import PortfolioItem from './portfolio-item.svelte';
 
 	const [minColWidth, maxColWidth, gap] = [200, 800, 20];
 
 	const images = [
+		[hazelThumb, hazelFull],
+		[qBeeThumb, qBeeFull],
+		[tigerThumb, tigerFull],
+		[throatThumb, throatFull],
+		[phoneThumb, phoneFull],
 		[port2Thumb, port2Full],
 		[beeThumb, beeFull],
 		[kpopThumb, kpopFull],
